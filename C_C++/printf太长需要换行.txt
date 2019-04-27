@@ -1,0 +1,7 @@
+d_printf("set data: lightness current %d, lightness target %d, lightness last %d"
+         ",temperature current %d, temperature target %d"
+         ",deltauv current %d, deltauv target %d.",
+         1,2,3,4,5,6,7);
+
+输出结果:
+set data: lightness current 1, lightness target 2, lightness last 3,temperature current 4, temperature target 5,deltauv current 6, deltauv target 7

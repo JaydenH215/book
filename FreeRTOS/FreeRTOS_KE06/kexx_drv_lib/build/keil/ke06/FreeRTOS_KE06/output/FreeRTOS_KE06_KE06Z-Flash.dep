@@ -1,0 +1,586 @@
+Dependencies for Project 'FreeRTOS_KE06', Target 'KE06Z-Flash': (DO NOT MODIFY !)
+F (..\..\..\..\src\common\alloc.c)(0x53217EC8)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O2 --apcs=interwork -I..\..\..\..\src\projects\ke06\FreeRTOS_KE06 -I..\..\..\..\src\common -I..\..\..\..\src\cpu -I..\..\..\..\src\cpu\headers -I..\..\..\..\src\drivers\uart -I..\..\..\..\src\drivers\acmp -I..\..\..\..\src\platforms -I..\.. -I..\..\..\..\src\drivers\ics -I..\..\..\..\src\drivers\rtc -I..\..\..\..\src\drivers\wdog -I..\..\..\..\src\drivers\ftm -I..\..\..\..\src\drivers\nvm -I..\..\..\..\src\drivers\sim -I..\..\..\..\src\drivers\spi -I..\..\..\..\src\drivers\kbi -I..\..\..\..\src\drivers\gpio -I..\..\..\..\src\drivers\crc -I..\..\..\..\src\drivers\bme -I..\..\..\..\src\drivers\iic -I..\..\..\..\src\drivers\pit -I..\..\..\..\src\drivers\PMC -I..\..\..\..\src\drivers\adc -I..\..\..\..\src\drivers\pwt -I..\..\..\..\src\drivers\bitband -I.\FreeRTOS\include -I.\FreeRTOS\portable\RVDS\ARM_CM0-I C:\Users\huangjidong\Desktop\FreeRTOS_KE06\kexx_drv_lib\build\keil\ke06\FreeRTOS_KE06\RTE-I D:\Software\keil\Keil\Kinetis_KExx_DFP\1.7.0\Device\Include-I D:\Software\keil\ARM\CMSIS\Include-D__UVISION_VERSION="517" -DMKE06Z128xxx4 -DKEIL -DFRDM_KE06 -DCPU_KE06 -DCMSIS-o .\output\alloc.o --omf_browse .\output\alloc.crf --depend .\output\alloc.d)
+I (..\..\..\..\src\common\common.h)(0x53217EC8)
+I (..\..\..\..\src\cpu\arm_cm0.h)(0x53217EC8)
+I (..\..\..\..\src\platforms\ke06_config.h)(0x53217EC8)
+I (D:\Software\keil\ARM\ARMCC\include\stdint.h)(0x55DB2B80)
+I (..\..\..\..\src\cpu\headers\MKE06Z4.h)(0x53217EC8)
+I (..\..\..\..\src\cpu\headers\core_cm0plus.h)(0x5625B70C)
+I (..\..\..\..\src\cpu\headers\core_cmInstr.h)(0x5625A350)
+I (..\..\..\..\src\cpu\headers\cmsis_armcc.h)(0x5625A350)
+I (..\..\..\..\src\cpu\headers\core_cmFunc.h)(0x5625A350)
+I (..\..\..\..\src\cpu\system_MKE06Z4.h)(0x53217EC8)
+I (..\..\..\..\src\common\assert.h)(0x53217EC8)
+I (..\..\..\..\src\common\io.h)(0x53217EC8)
+I (..\..\..\..\src\common\startup.h)(0x53217EC8)
+I (..\..\..\..\src\common\stdlib.h)(0x53217EC8)
+F (..\..\..\..\src\common\assert.c)(0x53217EC8)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O2 --apcs=interwork -I..\..\..\..\src\projects\ke06\FreeRTOS_KE06 -I..\..\..\..\src\common -I..\..\..\..\src\cpu -I..\..\..\..\src\cpu\headers -I..\..\..\..\src\drivers\uart -I..\..\..\..\src\drivers\acmp -I..\..\..\..\src\platforms -I..\.. -I..\..\..\..\src\drivers\ics -I..\..\..\..\src\drivers\rtc -I..\..\..\..\src\drivers\wdog -I..\..\..\..\src\drivers\ftm -I..\..\..\..\src\drivers\nvm -I..\..\..\..\src\drivers\sim -I..\..\..\..\src\drivers\spi -I..\..\..\..\src\drivers\kbi -I..\..\..\..\src\drivers\gpio -I..\..\..\..\src\drivers\crc -I..\..\..\..\src\drivers\bme -I..\..\..\..\src\drivers\iic -I..\..\..\..\src\drivers\pit -I..\..\..\..\src\drivers\PMC -I..\..\..\..\src\drivers\adc -I..\..\..\..\src\drivers\pwt -I..\..\..\..\src\drivers\bitband -I.\FreeRTOS\include -I.\FreeRTOS\portable\RVDS\ARM_CM0-I C:\Users\huangjidong\Desktop\FreeRTOS_KE06\kexx_drv_lib\build\keil\ke06\FreeRTOS_KE06\RTE-I D:\Software\keil\Keil\Kinetis_KExx_DFP\1.7.0\Device\Include-I D:\Software\keil\ARM\CMSIS\Include-D__UVISION_VERSION="517" -DMKE06Z128xxx4 -DKEIL -DFRDM_KE06 -DCPU_KE06 -DCMSIS-o .\output\assert.o --omf_browse .\output\assert.crf --depend .\output\assert.d)
+I (..\..\..\..\src\common\common.h)(0x53217EC8)
+I (..\..\..\..\src\cpu\arm_cm0.h)(0x53217EC8)
+I (..\..\..\..\src\platforms\ke06_config.h)(0x53217EC8)
+I (D:\Software\keil\ARM\ARMCC\include\stdint.h)(0x55DB2B80)
+I (..\..\..\..\src\cpu\headers\MKE06Z4.h)(0x53217EC8)
+I (..\..\..\..\src\cpu\headers\core_cm0plus.h)(0x5625B70C)
+I (..\..\..\..\src\cpu\headers\core_cmInstr.h)(0x5625A350)
+I (..\..\..\..\src\cpu\headers\cmsis_armcc.h)(0x5625A350)
+I (..\..\..\..\src\cpu\headers\core_cmFunc.h)(0x5625A350)
+I (..\..\..\..\src\cpu\system_MKE06Z4.h)(0x53217EC8)
+I (..\..\..\..\src\common\assert.h)(0x53217EC8)
+I (..\..\..\..\src\common\io.h)(0x53217EC8)
+I (..\..\..\..\src\common\startup.h)(0x53217EC8)
+I (..\..\..\..\src\common\stdlib.h)(0x53217EC8)
+F (..\..\..\..\src\common\io.c)(0x53217EC8)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O2 --apcs=interwork -I..\..\..\..\src\projects\ke06\FreeRTOS_KE06 -I..\..\..\..\src\common -I..\..\..\..\src\cpu -I..\..\..\..\src\cpu\headers -I..\..\..\..\src\drivers\uart -I..\..\..\..\src\drivers\acmp -I..\..\..\..\src\platforms -I..\.. -I..\..\..\..\src\drivers\ics -I..\..\..\..\src\drivers\rtc -I..\..\..\..\src\drivers\wdog -I..\..\..\..\src\drivers\ftm -I..\..\..\..\src\drivers\nvm -I..\..\..\..\src\drivers\sim -I..\..\..\..\src\drivers\spi -I..\..\..\..\src\drivers\kbi -I..\..\..\..\src\drivers\gpio -I..\..\..\..\src\drivers\crc -I..\..\..\..\src\drivers\bme -I..\..\..\..\src\drivers\iic -I..\..\..\..\src\drivers\pit -I..\..\..\..\src\drivers\PMC -I..\..\..\..\src\drivers\adc -I..\..\..\..\src\drivers\pwt -I..\..\..\..\src\drivers\bitband -I.\FreeRTOS\include -I.\FreeRTOS\portable\RVDS\ARM_CM0-I C:\Users\huangjidong\Desktop\FreeRTOS_KE06\kexx_drv_lib\build\keil\ke06\FreeRTOS_KE06\RTE-I D:\Software\keil\Keil\Kinetis_KExx_DFP\1.7.0\Device\Include-I D:\Software\keil\ARM\CMSIS\Include-D__UVISION_VERSION="517" -DMKE06Z128xxx4 -DKEIL -DFRDM_KE06 -DCPU_KE06 -DCMSIS-o .\output\io.o --omf_browse .\output\io.crf --depend .\output\io.d)
+I (..\..\..\..\src\common\common.h)(0x53217EC8)
+I (..\..\..\..\src\cpu\arm_cm0.h)(0x53217EC8)
+I (..\..\..\..\src\platforms\ke06_config.h)(0x53217EC8)
+I (D:\Software\keil\ARM\ARMCC\include\stdint.h)(0x55DB2B80)
+I (..\..\..\..\src\cpu\headers\MKE06Z4.h)(0x53217EC8)
+I (..\..\..\..\src\cpu\headers\core_cm0plus.h)(0x5625B70C)
+I (..\..\..\..\src\cpu\headers\core_cmInstr.h)(0x5625A350)
+I (..\..\..\..\src\cpu\headers\cmsis_armcc.h)(0x5625A350)
+I (..\..\..\..\src\cpu\headers\core_cmFunc.h)(0x5625A350)
+I (..\..\..\..\src\cpu\system_MKE06Z4.h)(0x53217EC8)
+I (..\..\..\..\src\common\assert.h)(0x53217EC8)
+I (..\..\..\..\src\common\io.h)(0x53217EC8)
+I (..\..\..\..\src\common\startup.h)(0x53217EC8)
+I (..\..\..\..\src\common\stdlib.h)(0x53217EC8)
+I (..\..\..\..\src\drivers\uart\uart.h)(0x53217EC8)
+I (..\..\..\..\src\drivers\wdog\wdog.h)(0x53217EC8)
+I (..\..\..\..\src\drivers\sim\sim.h)(0x53217EC8)
+I (D:\Software\keil\ARM\ARMCC\include\stdio.h)(0x55DB2B76)
+F (..\..\..\..\src\common\memtest.c)(0x53217EC8)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O2 --apcs=interwork -I..\..\..\..\src\projects\ke06\FreeRTOS_KE06 -I..\..\..\..\src\common -I..\..\..\..\src\cpu -I..\..\..\..\src\cpu\headers -I..\..\..\..\src\drivers\uart -I..\..\..\..\src\drivers\acmp -I..\..\..\..\src\platforms -I..\.. -I..\..\..\..\src\drivers\ics -I..\..\..\..\src\drivers\rtc -I..\..\..\..\src\drivers\wdog -I..\..\..\..\src\drivers\ftm -I..\..\..\..\src\drivers\nvm -I..\..\..\..\src\drivers\sim -I..\..\..\..\src\drivers\spi -I..\..\..\..\src\drivers\kbi -I..\..\..\..\src\drivers\gpio -I..\..\..\..\src\drivers\crc -I..\..\..\..\src\drivers\bme -I..\..\..\..\src\drivers\iic -I..\..\..\..\src\drivers\pit -I..\..\..\..\src\drivers\PMC -I..\..\..\..\src\drivers\adc -I..\..\..\..\src\drivers\pwt -I..\..\..\..\src\drivers\bitband -I.\FreeRTOS\include -I.\FreeRTOS\portable\RVDS\ARM_CM0-I C:\Users\huangjidong\Desktop\FreeRTOS_KE06\kexx_drv_lib\build\keil\ke06\FreeRTOS_KE06\RTE-I D:\Software\keil\Keil\Kinetis_KExx_DFP\1.7.0\Device\Include-I D:\Software\keil\ARM\CMSIS\Include-D__UVISION_VERSION="517" -DMKE06Z128xxx4 -DKEIL -DFRDM_KE06 -DCPU_KE06 -DCMSIS-o .\output\memtest.o --omf_browse .\output\memtest.crf --depend .\output\memtest.d)
+I (..\..\..\..\src\common\memtest.h)(0x53217EC8)
+F (..\..\..\..\src\common\stdlib.c)(0x53217EC8)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O2 --apcs=interwork -I..\..\..\..\src\projects\ke06\FreeRTOS_KE06 -I..\..\..\..\src\common -I..\..\..\..\src\cpu -I..\..\..\..\src\cpu\headers -I..\..\..\..\src\drivers\uart -I..\..\..\..\src\drivers\acmp -I..\..\..\..\src\platforms -I..\.. -I..\..\..\..\src\drivers\ics -I..\..\..\..\src\drivers\rtc -I..\..\..\..\src\drivers\wdog -I..\..\..\..\src\drivers\ftm -I..\..\..\..\src\drivers\nvm -I..\..\..\..\src\drivers\sim -I..\..\..\..\src\drivers\spi -I..\..\..\..\src\drivers\kbi -I..\..\..\..\src\drivers\gpio -I..\..\..\..\src\drivers\crc -I..\..\..\..\src\drivers\bme -I..\..\..\..\src\drivers\iic -I..\..\..\..\src\drivers\pit -I..\..\..\..\src\drivers\PMC -I..\..\..\..\src\drivers\adc -I..\..\..\..\src\drivers\pwt -I..\..\..\..\src\drivers\bitband -I.\FreeRTOS\include -I.\FreeRTOS\portable\RVDS\ARM_CM0-I C:\Users\huangjidong\Desktop\FreeRTOS_KE06\kexx_drv_lib\build\keil\ke06\FreeRTOS_KE06\RTE-I D:\Software\keil\Keil\Kinetis_KExx_DFP\1.7.0\Device\Include-I D:\Software\keil\ARM\CMSIS\Include-D__UVISION_VERSION="517" -DMKE06Z128xxx4 -DKEIL -DFRDM_KE06 -DCPU_KE06 -DCMSIS-o .\output\stdlib.o --omf_browse .\output\stdlib.crf --depend .\output\stdlib.d)
+I (..\..\..\..\src\common\common.h)(0x53217EC8)
+I (..\..\..\..\src\cpu\arm_cm0.h)(0x53217EC8)
+I (..\..\..\..\src\platforms\ke06_config.h)(0x53217EC8)
+I (D:\Software\keil\ARM\ARMCC\include\stdint.h)(0x55DB2B80)
+I (..\..\..\..\src\cpu\headers\MKE06Z4.h)(0x53217EC8)
+I (..\..\..\..\src\cpu\headers\core_cm0plus.h)(0x5625B70C)
+I (..\..\..\..\src\cpu\headers\core_cmInstr.h)(0x5625A350)
+I (..\..\..\..\src\cpu\headers\cmsis_armcc.h)(0x5625A350)
+I (..\..\..\..\src\cpu\headers\core_cmFunc.h)(0x5625A350)
+I (..\..\..\..\src\cpu\system_MKE06Z4.h)(0x53217EC8)
+I (..\..\..\..\src\common\assert.h)(0x53217EC8)
+I (..\..\..\..\src\common\io.h)(0x53217EC8)
+I (..\..\..\..\src\common\startup.h)(0x53217EC8)
+I (..\..\..\..\src\common\stdlib.h)(0x53217EC8)
+F (..\..\..\..\src\cpu\arm_cm0.c)(0x53217EC8)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O2 --apcs=interwork -I..\..\..\..\src\projects\ke06\FreeRTOS_KE06 -I..\..\..\..\src\common -I..\..\..\..\src\cpu -I..\..\..\..\src\cpu\headers -I..\..\..\..\src\drivers\uart -I..\..\..\..\src\drivers\acmp -I..\..\..\..\src\platforms -I..\.. -I..\..\..\..\src\drivers\ics -I..\..\..\..\src\drivers\rtc -I..\..\..\..\src\drivers\wdog -I..\..\..\..\src\drivers\ftm -I..\..\..\..\src\drivers\nvm -I..\..\..\..\src\drivers\sim -I..\..\..\..\src\drivers\spi -I..\..\..\..\src\drivers\kbi -I..\..\..\..\src\drivers\gpio -I..\..\..\..\src\drivers\crc -I..\..\..\..\src\drivers\bme -I..\..\..\..\src\drivers\iic -I..\..\..\..\src\drivers\pit -I..\..\..\..\src\drivers\PMC -I..\..\..\..\src\drivers\adc -I..\..\..\..\src\drivers\pwt -I..\..\..\..\src\drivers\bitband -I.\FreeRTOS\include -I.\FreeRTOS\portable\RVDS\ARM_CM0-I C:\Users\huangjidong\Desktop\FreeRTOS_KE06\kexx_drv_lib\build\keil\ke06\FreeRTOS_KE06\RTE-I D:\Software\keil\Keil\Kinetis_KExx_DFP\1.7.0\Device\Include-I D:\Software\keil\ARM\CMSIS\Include-D__UVISION_VERSION="517" -DMKE06Z128xxx4 -DKEIL -DFRDM_KE06 -DCPU_KE06 -DCMSIS-o .\output\arm_cm0.o --omf_browse .\output\arm_cm0.crf --depend .\output\arm_cm0.d)
+I (..\..\..\..\src\common\common.h)(0x53217EC8)
+I (..\..\..\..\src\cpu\arm_cm0.h)(0x53217EC8)
+I (..\..\..\..\src\platforms\ke06_config.h)(0x53217EC8)
+I (D:\Software\keil\ARM\ARMCC\include\stdint.h)(0x55DB2B80)
+I (..\..\..\..\src\cpu\headers\MKE06Z4.h)(0x53217EC8)
+I (..\..\..\..\src\cpu\headers\core_cm0plus.h)(0x5625B70C)
+I (..\..\..\..\src\cpu\headers\core_cmInstr.h)(0x5625A350)
+I (..\..\..\..\src\cpu\headers\cmsis_armcc.h)(0x5625A350)
+I (..\..\..\..\src\cpu\headers\core_cmFunc.h)(0x5625A350)
+I (..\..\..\..\src\cpu\system_MKE06Z4.h)(0x53217EC8)
+I (..\..\..\..\src\common\assert.h)(0x53217EC8)
+I (..\..\..\..\src\common\io.h)(0x53217EC8)
+I (..\..\..\..\src\common\startup.h)(0x53217EC8)
+I (..\..\..\..\src\common\stdlib.h)(0x53217EC8)
+F (..\..\..\..\src\cpu\start.c)(0x53217EC8)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O2 --apcs=interwork -I..\..\..\..\src\projects\ke06\FreeRTOS_KE06 -I..\..\..\..\src\common -I..\..\..\..\src\cpu -I..\..\..\..\src\cpu\headers -I..\..\..\..\src\drivers\uart -I..\..\..\..\src\drivers\acmp -I..\..\..\..\src\platforms -I..\.. -I..\..\..\..\src\drivers\ics -I..\..\..\..\src\drivers\rtc -I..\..\..\..\src\drivers\wdog -I..\..\..\..\src\drivers\ftm -I..\..\..\..\src\drivers\nvm -I..\..\..\..\src\drivers\sim -I..\..\..\..\src\drivers\spi -I..\..\..\..\src\drivers\kbi -I..\..\..\..\src\drivers\gpio -I..\..\..\..\src\drivers\crc -I..\..\..\..\src\drivers\bme -I..\..\..\..\src\drivers\iic -I..\..\..\..\src\drivers\pit -I..\..\..\..\src\drivers\PMC -I..\..\..\..\src\drivers\adc -I..\..\..\..\src\drivers\pwt -I..\..\..\..\src\drivers\bitband -I.\FreeRTOS\include -I.\FreeRTOS\portable\RVDS\ARM_CM0-I C:\Users\huangjidong\Desktop\FreeRTOS_KE06\kexx_drv_lib\build\keil\ke06\FreeRTOS_KE06\RTE-I D:\Software\keil\Keil\Kinetis_KExx_DFP\1.7.0\Device\Include-I D:\Software\keil\ARM\CMSIS\Include-D__UVISION_VERSION="517" -DMKE06Z128xxx4 -DKEIL -DFRDM_KE06 -DCPU_KE06 -DCMSIS-o .\output\start.o --omf_browse .\output\start.crf --depend .\output\start.d)
+I (..\..\..\..\src\cpu\start.h)(0x53217EC8)
+I (..\..\..\..\src\common\common.h)(0x53217EC8)
+I (..\..\..\..\src\cpu\arm_cm0.h)(0x53217EC8)
+I (..\..\..\..\src\platforms\ke06_config.h)(0x53217EC8)
+I (D:\Software\keil\ARM\ARMCC\include\stdint.h)(0x55DB2B80)
+I (..\..\..\..\src\cpu\headers\MKE06Z4.h)(0x53217EC8)
+I (..\..\..\..\src\cpu\headers\core_cm0plus.h)(0x5625B70C)
+I (..\..\..\..\src\cpu\headers\core_cmInstr.h)(0x5625A350)
+I (..\..\..\..\src\cpu\headers\cmsis_armcc.h)(0x5625A350)
+I (..\..\..\..\src\cpu\headers\core_cmFunc.h)(0x5625A350)
+I (..\..\..\..\src\cpu\system_MKE06Z4.h)(0x53217EC8)
+I (..\..\..\..\src\common\assert.h)(0x53217EC8)
+I (..\..\..\..\src\common\io.h)(0x53217EC8)
+I (..\..\..\..\src\common\startup.h)(0x53217EC8)
+I (..\..\..\..\src\common\stdlib.h)(0x53217EC8)
+I (..\..\..\..\src\drivers\wdog\wdog.h)(0x53217EC8)
+I (..\..\..\..\src\drivers\sim\sim.h)(0x53217EC8)
+I (..\..\..\..\src\cpu\sysinit.h)(0x53217EC8)
+F (..\..\..\..\src\cpu\sysinit.c)(0x53217EC8)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O2 --apcs=interwork -I..\..\..\..\src\projects\ke06\FreeRTOS_KE06 -I..\..\..\..\src\common -I..\..\..\..\src\cpu -I..\..\..\..\src\cpu\headers -I..\..\..\..\src\drivers\uart -I..\..\..\..\src\drivers\acmp -I..\..\..\..\src\platforms -I..\.. -I..\..\..\..\src\drivers\ics -I..\..\..\..\src\drivers\rtc -I..\..\..\..\src\drivers\wdog -I..\..\..\..\src\drivers\ftm -I..\..\..\..\src\drivers\nvm -I..\..\..\..\src\drivers\sim -I..\..\..\..\src\drivers\spi -I..\..\..\..\src\drivers\kbi -I..\..\..\..\src\drivers\gpio -I..\..\..\..\src\drivers\crc -I..\..\..\..\src\drivers\bme -I..\..\..\..\src\drivers\iic -I..\..\..\..\src\drivers\pit -I..\..\..\..\src\drivers\PMC -I..\..\..\..\src\drivers\adc -I..\..\..\..\src\drivers\pwt -I..\..\..\..\src\drivers\bitband -I.\FreeRTOS\include -I.\FreeRTOS\portable\RVDS\ARM_CM0-I C:\Users\huangjidong\Desktop\FreeRTOS_KE06\kexx_drv_lib\build\keil\ke06\FreeRTOS_KE06\RTE-I D:\Software\keil\Keil\Kinetis_KExx_DFP\1.7.0\Device\Include-I D:\Software\keil\ARM\CMSIS\Include-D__UVISION_VERSION="517" -DMKE06Z128xxx4 -DKEIL -DFRDM_KE06 -DCPU_KE06 -DCMSIS-o .\output\sysinit.o --omf_browse .\output\sysinit.crf --depend .\output\sysinit.d)
+I (..\..\..\..\src\common\common.h)(0x53217EC8)
+I (..\..\..\..\src\cpu\arm_cm0.h)(0x53217EC8)
+I (..\..\..\..\src\platforms\ke06_config.h)(0x53217EC8)
+I (D:\Software\keil\ARM\ARMCC\include\stdint.h)(0x55DB2B80)
+I (..\..\..\..\src\cpu\headers\MKE06Z4.h)(0x53217EC8)
+I (..\..\..\..\src\cpu\headers\core_cm0plus.h)(0x5625B70C)
+I (..\..\..\..\src\cpu\headers\core_cmInstr.h)(0x5625A350)
+I (..\..\..\..\src\cpu\headers\cmsis_armcc.h)(0x5625A350)
+I (..\..\..\..\src\cpu\headers\core_cmFunc.h)(0x5625A350)
+I (..\..\..\..\src\cpu\system_MKE06Z4.h)(0x53217EC8)
+I (..\..\..\..\src\common\assert.h)(0x53217EC8)
+I (..\..\..\..\src\common\io.h)(0x53217EC8)
+I (..\..\..\..\src\common\startup.h)(0x53217EC8)
+I (..\..\..\..\src\common\stdlib.h)(0x53217EC8)
+I (..\..\..\..\src\cpu\sysinit.h)(0x53217EC8)
+I (..\..\..\..\src\drivers\sim\sim.h)(0x53217EC8)
+I (..\..\..\..\src\drivers\uart\uart.h)(0x53217EC8)
+I (..\..\..\..\src\drivers\wdog\wdog.h)(0x53217EC8)
+I (..\..\..\..\src\drivers\ics\ics.h)(0x53217EC8)
+F (..\..\..\..\src\cpu\systick.c)(0x53217EC8)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O2 --apcs=interwork -I..\..\..\..\src\projects\ke06\FreeRTOS_KE06 -I..\..\..\..\src\common -I..\..\..\..\src\cpu -I..\..\..\..\src\cpu\headers -I..\..\..\..\src\drivers\uart -I..\..\..\..\src\drivers\acmp -I..\..\..\..\src\platforms -I..\.. -I..\..\..\..\src\drivers\ics -I..\..\..\..\src\drivers\rtc -I..\..\..\..\src\drivers\wdog -I..\..\..\..\src\drivers\ftm -I..\..\..\..\src\drivers\nvm -I..\..\..\..\src\drivers\sim -I..\..\..\..\src\drivers\spi -I..\..\..\..\src\drivers\kbi -I..\..\..\..\src\drivers\gpio -I..\..\..\..\src\drivers\crc -I..\..\..\..\src\drivers\bme -I..\..\..\..\src\drivers\iic -I..\..\..\..\src\drivers\pit -I..\..\..\..\src\drivers\PMC -I..\..\..\..\src\drivers\adc -I..\..\..\..\src\drivers\pwt -I..\..\..\..\src\drivers\bitband -I.\FreeRTOS\include -I.\FreeRTOS\portable\RVDS\ARM_CM0-I C:\Users\huangjidong\Desktop\FreeRTOS_KE06\kexx_drv_lib\build\keil\ke06\FreeRTOS_KE06\RTE-I D:\Software\keil\Keil\Kinetis_KExx_DFP\1.7.0\Device\Include-I D:\Software\keil\ARM\CMSIS\Include-D__UVISION_VERSION="517" -DMKE06Z128xxx4 -DKEIL -DFRDM_KE06 -DCPU_KE06 -DCMSIS-o .\output\systick.o --omf_browse .\output\systick.crf --depend .\output\systick.d)
+I (..\..\..\..\src\common\common.h)(0x53217EC8)
+I (..\..\..\..\src\cpu\arm_cm0.h)(0x53217EC8)
+I (..\..\..\..\src\platforms\ke06_config.h)(0x53217EC8)
+I (D:\Software\keil\ARM\ARMCC\include\stdint.h)(0x55DB2B80)
+I (..\..\..\..\src\cpu\headers\MKE06Z4.h)(0x53217EC8)
+I (..\..\..\..\src\cpu\headers\core_cm0plus.h)(0x5625B70C)
+I (..\..\..\..\src\cpu\headers\core_cmInstr.h)(0x5625A350)
+I (..\..\..\..\src\cpu\headers\cmsis_armcc.h)(0x5625A350)
+I (..\..\..\..\src\cpu\headers\core_cmFunc.h)(0x5625A350)
+I (..\..\..\..\src\cpu\system_MKE06Z4.h)(0x53217EC8)
+I (..\..\..\..\src\common\assert.h)(0x53217EC8)
+I (..\..\..\..\src\common\io.h)(0x53217EC8)
+I (..\..\..\..\src\common\startup.h)(0x53217EC8)
+I (..\..\..\..\src\common\stdlib.h)(0x53217EC8)
+I (..\..\..\..\src\cpu\systick.h)(0x53217EC8)
+F (..\..\..\..\src\cpu\vectors.c)(0x53217EC8)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O2 --apcs=interwork -I..\..\..\..\src\projects\ke06\FreeRTOS_KE06 -I..\..\..\..\src\common -I..\..\..\..\src\cpu -I..\..\..\..\src\cpu\headers -I..\..\..\..\src\drivers\uart -I..\..\..\..\src\drivers\acmp -I..\..\..\..\src\platforms -I..\.. -I..\..\..\..\src\drivers\ics -I..\..\..\..\src\drivers\rtc -I..\..\..\..\src\drivers\wdog -I..\..\..\..\src\drivers\ftm -I..\..\..\..\src\drivers\nvm -I..\..\..\..\src\drivers\sim -I..\..\..\..\src\drivers\spi -I..\..\..\..\src\drivers\kbi -I..\..\..\..\src\drivers\gpio -I..\..\..\..\src\drivers\crc -I..\..\..\..\src\drivers\bme -I..\..\..\..\src\drivers\iic -I..\..\..\..\src\drivers\pit -I..\..\..\..\src\drivers\PMC -I..\..\..\..\src\drivers\adc -I..\..\..\..\src\drivers\pwt -I..\..\..\..\src\drivers\bitband -I.\FreeRTOS\include -I.\FreeRTOS\portable\RVDS\ARM_CM0-I C:\Users\huangjidong\Desktop\FreeRTOS_KE06\kexx_drv_lib\build\keil\ke06\FreeRTOS_KE06\RTE-I D:\Software\keil\Keil\Kinetis_KExx_DFP\1.7.0\Device\Include-I D:\Software\keil\ARM\CMSIS\Include-D__UVISION_VERSION="517" -DMKE06Z128xxx4 -DKEIL -DFRDM_KE06 -DCPU_KE06 -DCMSIS-o .\output\vectors.o --omf_browse .\output\vectors.crf --depend .\output\vectors.d)
+I (..\..\..\..\src\cpu\vectors.h)(0x53217EC8)
+I (..\..\..\..\src\projects\ke06\FreeRTOS_KE06\isr.h)(0x5A2BC689)
+I (..\..\..\..\src\common\common.h)(0x53217EC8)
+I (..\..\..\..\src\cpu\arm_cm0.h)(0x53217EC8)
+I (..\..\..\..\src\platforms\ke06_config.h)(0x53217EC8)
+I (D:\Software\keil\ARM\ARMCC\include\stdint.h)(0x55DB2B80)
+I (..\..\..\..\src\cpu\headers\MKE06Z4.h)(0x53217EC8)
+I (..\..\..\..\src\cpu\headers\core_cm0plus.h)(0x5625B70C)
+I (..\..\..\..\src\cpu\headers\core_cmInstr.h)(0x5625A350)
+I (..\..\..\..\src\cpu\headers\cmsis_armcc.h)(0x5625A350)
+I (..\..\..\..\src\cpu\headers\core_cmFunc.h)(0x5625A350)
+I (..\..\..\..\src\cpu\system_MKE06Z4.h)(0x53217EC8)
+I (..\..\..\..\src\common\assert.h)(0x53217EC8)
+I (..\..\..\..\src\common\io.h)(0x53217EC8)
+I (..\..\..\..\src\common\startup.h)(0x53217EC8)
+I (..\..\..\..\src\common\stdlib.h)(0x53217EC8)
+F (..\..\..\..\src\cpu\startup_MKE06Z4.s)(0x53217EC8)(--cpu Cortex-M0+ -g --apcs=interwork --pd "__MICROLIB SETA 1"-I C:\Users\huangjidong\Desktop\FreeRTOS_KE06\kexx_drv_lib\build\keil\ke06\FreeRTOS_KE06\RTE-I D:\Software\keil\Keil\Kinetis_KExx_DFP\1.7.0\Device\Include-I D:\Software\keil\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 517" --pd "MKE06Z128xxx4 SETA 1"--list .\startup_mke06z4.lst --xref -o .\output\startup_mke06z4.o --depend .\output\startup_mke06z4.d)
+F (..\..\..\..\src\drivers\gpio\gpio.c)(0x53217EC8)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O2 --apcs=interwork -I..\..\..\..\src\projects\ke06\FreeRTOS_KE06 -I..\..\..\..\src\common -I..\..\..\..\src\cpu -I..\..\..\..\src\cpu\headers -I..\..\..\..\src\drivers\uart -I..\..\..\..\src\drivers\acmp -I..\..\..\..\src\platforms -I..\.. -I..\..\..\..\src\drivers\ics -I..\..\..\..\src\drivers\rtc -I..\..\..\..\src\drivers\wdog -I..\..\..\..\src\drivers\ftm -I..\..\..\..\src\drivers\nvm -I..\..\..\..\src\drivers\sim -I..\..\..\..\src\drivers\spi -I..\..\..\..\src\drivers\kbi -I..\..\..\..\src\drivers\gpio -I..\..\..\..\src\drivers\crc -I..\..\..\..\src\drivers\bme -I..\..\..\..\src\drivers\iic -I..\..\..\..\src\drivers\pit -I..\..\..\..\src\drivers\PMC -I..\..\..\..\src\drivers\adc -I..\..\..\..\src\drivers\pwt -I..\..\..\..\src\drivers\bitband -I.\FreeRTOS\include -I.\FreeRTOS\portable\RVDS\ARM_CM0-I C:\Users\huangjidong\Desktop\FreeRTOS_KE06\kexx_drv_lib\build\keil\ke06\FreeRTOS_KE06\RTE-I D:\Software\keil\Keil\Kinetis_KExx_DFP\1.7.0\Device\Include-I D:\Software\keil\ARM\CMSIS\Include-D__UVISION_VERSION="517" -DMKE06Z128xxx4 -DKEIL -DFRDM_KE06 -DCPU_KE06 -DCMSIS-o .\output\gpio.o --omf_browse .\output\gpio.crf --depend .\output\gpio.d)
+I (..\..\..\..\src\drivers\gpio\gpio.h)(0x53217EC8)
+I (..\..\..\..\src\common\common.h)(0x53217EC8)
+I (..\..\..\..\src\cpu\arm_cm0.h)(0x53217EC8)
+I (..\..\..\..\src\platforms\ke06_config.h)(0x53217EC8)
+I (D:\Software\keil\ARM\ARMCC\include\stdint.h)(0x55DB2B80)
+I (..\..\..\..\src\cpu\headers\MKE06Z4.h)(0x53217EC8)
+I (..\..\..\..\src\cpu\headers\core_cm0plus.h)(0x5625B70C)
+I (..\..\..\..\src\cpu\headers\core_cmInstr.h)(0x5625A350)
+I (..\..\..\..\src\cpu\headers\cmsis_armcc.h)(0x5625A350)
+I (..\..\..\..\src\cpu\headers\core_cmFunc.h)(0x5625A350)
+I (..\..\..\..\src\cpu\system_MKE06Z4.h)(0x53217EC8)
+I (..\..\..\..\src\common\assert.h)(0x53217EC8)
+I (..\..\..\..\src\common\io.h)(0x53217EC8)
+I (..\..\..\..\src\common\startup.h)(0x53217EC8)
+I (..\..\..\..\src\common\stdlib.h)(0x53217EC8)
+F (..\..\..\..\src\drivers\uart\uart.c)(0x53217EC8)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O2 --apcs=interwork -I..\..\..\..\src\projects\ke06\FreeRTOS_KE06 -I..\..\..\..\src\common -I..\..\..\..\src\cpu -I..\..\..\..\src\cpu\headers -I..\..\..\..\src\drivers\uart -I..\..\..\..\src\drivers\acmp -I..\..\..\..\src\platforms -I..\.. -I..\..\..\..\src\drivers\ics -I..\..\..\..\src\drivers\rtc -I..\..\..\..\src\drivers\wdog -I..\..\..\..\src\drivers\ftm -I..\..\..\..\src\drivers\nvm -I..\..\..\..\src\drivers\sim -I..\..\..\..\src\drivers\spi -I..\..\..\..\src\drivers\kbi -I..\..\..\..\src\drivers\gpio -I..\..\..\..\src\drivers\crc -I..\..\..\..\src\drivers\bme -I..\..\..\..\src\drivers\iic -I..\..\..\..\src\drivers\pit -I..\..\..\..\src\drivers\PMC -I..\..\..\..\src\drivers\adc -I..\..\..\..\src\drivers\pwt -I..\..\..\..\src\drivers\bitband -I.\FreeRTOS\include -I.\FreeRTOS\portable\RVDS\ARM_CM0-I C:\Users\huangjidong\Desktop\FreeRTOS_KE06\kexx_drv_lib\build\keil\ke06\FreeRTOS_KE06\RTE-I D:\Software\keil\Keil\Kinetis_KExx_DFP\1.7.0\Device\Include-I D:\Software\keil\ARM\CMSIS\Include-D__UVISION_VERSION="517" -DMKE06Z128xxx4 -DKEIL -DFRDM_KE06 -DCPU_KE06 -DCMSIS-o .\output\uart.o --omf_browse .\output\uart.crf --depend .\output\uart.d)
+I (..\..\..\..\src\drivers\uart\uart.h)(0x53217EC8)
+I (..\..\..\..\src\common\common.h)(0x53217EC8)
+I (..\..\..\..\src\cpu\arm_cm0.h)(0x53217EC8)
+I (..\..\..\..\src\platforms\ke06_config.h)(0x53217EC8)
+I (D:\Software\keil\ARM\ARMCC\include\stdint.h)(0x55DB2B80)
+I (..\..\..\..\src\cpu\headers\MKE06Z4.h)(0x53217EC8)
+I (..\..\..\..\src\cpu\headers\core_cm0plus.h)(0x5625B70C)
+I (..\..\..\..\src\cpu\headers\core_cmInstr.h)(0x5625A350)
+I (..\..\..\..\src\cpu\headers\cmsis_armcc.h)(0x5625A350)
+I (..\..\..\..\src\cpu\headers\core_cmFunc.h)(0x5625A350)
+I (..\..\..\..\src\cpu\system_MKE06Z4.h)(0x53217EC8)
+I (..\..\..\..\src\common\assert.h)(0x53217EC8)
+I (..\..\..\..\src\common\io.h)(0x53217EC8)
+I (..\..\..\..\src\common\startup.h)(0x53217EC8)
+I (..\..\..\..\src\common\stdlib.h)(0x53217EC8)
+I (..\..\..\..\src\drivers\wdog\wdog.h)(0x53217EC8)
+I (..\..\..\..\src\drivers\sim\sim.h)(0x53217EC8)
+F (..\..\..\..\src\drivers\wdog\wdog.c)(0x53217EC8)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O2 --apcs=interwork -I..\..\..\..\src\projects\ke06\FreeRTOS_KE06 -I..\..\..\..\src\common -I..\..\..\..\src\cpu -I..\..\..\..\src\cpu\headers -I..\..\..\..\src\drivers\uart -I..\..\..\..\src\drivers\acmp -I..\..\..\..\src\platforms -I..\.. -I..\..\..\..\src\drivers\ics -I..\..\..\..\src\drivers\rtc -I..\..\..\..\src\drivers\wdog -I..\..\..\..\src\drivers\ftm -I..\..\..\..\src\drivers\nvm -I..\..\..\..\src\drivers\sim -I..\..\..\..\src\drivers\spi -I..\..\..\..\src\drivers\kbi -I..\..\..\..\src\drivers\gpio -I..\..\..\..\src\drivers\crc -I..\..\..\..\src\drivers\bme -I..\..\..\..\src\drivers\iic -I..\..\..\..\src\drivers\pit -I..\..\..\..\src\drivers\PMC -I..\..\..\..\src\drivers\adc -I..\..\..\..\src\drivers\pwt -I..\..\..\..\src\drivers\bitband -I.\FreeRTOS\include -I.\FreeRTOS\portable\RVDS\ARM_CM0-I C:\Users\huangjidong\Desktop\FreeRTOS_KE06\kexx_drv_lib\build\keil\ke06\FreeRTOS_KE06\RTE-I D:\Software\keil\Keil\Kinetis_KExx_DFP\1.7.0\Device\Include-I D:\Software\keil\ARM\CMSIS\Include-D__UVISION_VERSION="517" -DMKE06Z128xxx4 -DKEIL -DFRDM_KE06 -DCPU_KE06 -DCMSIS-o .\output\wdog.o --omf_browse .\output\wdog.crf --depend .\output\wdog.d)
+I (..\..\..\..\src\common\common.h)(0x53217EC8)
+I (..\..\..\..\src\cpu\arm_cm0.h)(0x53217EC8)
+I (..\..\..\..\src\platforms\ke06_config.h)(0x53217EC8)
+I (D:\Software\keil\ARM\ARMCC\include\stdint.h)(0x55DB2B80)
+I (..\..\..\..\src\cpu\headers\MKE06Z4.h)(0x53217EC8)
+I (..\..\..\..\src\cpu\headers\core_cm0plus.h)(0x5625B70C)
+I (..\..\..\..\src\cpu\headers\core_cmInstr.h)(0x5625A350)
+I (..\..\..\..\src\cpu\headers\cmsis_armcc.h)(0x5625A350)
+I (..\..\..\..\src\cpu\headers\core_cmFunc.h)(0x5625A350)
+I (..\..\..\..\src\cpu\system_MKE06Z4.h)(0x53217EC8)
+I (..\..\..\..\src\common\assert.h)(0x53217EC8)
+I (..\..\..\..\src\common\io.h)(0x53217EC8)
+I (..\..\..\..\src\common\startup.h)(0x53217EC8)
+I (..\..\..\..\src\common\stdlib.h)(0x53217EC8)
+I (..\..\..\..\src\drivers\wdog\wdog.h)(0x53217EC8)
+I (..\..\..\..\src\drivers\sim\sim.h)(0x53217EC8)
+F (..\..\..\..\src\drivers\sim\sim.c)(0x53217EC8)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O2 --apcs=interwork -I..\..\..\..\src\projects\ke06\FreeRTOS_KE06 -I..\..\..\..\src\common -I..\..\..\..\src\cpu -I..\..\..\..\src\cpu\headers -I..\..\..\..\src\drivers\uart -I..\..\..\..\src\drivers\acmp -I..\..\..\..\src\platforms -I..\.. -I..\..\..\..\src\drivers\ics -I..\..\..\..\src\drivers\rtc -I..\..\..\..\src\drivers\wdog -I..\..\..\..\src\drivers\ftm -I..\..\..\..\src\drivers\nvm -I..\..\..\..\src\drivers\sim -I..\..\..\..\src\drivers\spi -I..\..\..\..\src\drivers\kbi -I..\..\..\..\src\drivers\gpio -I..\..\..\..\src\drivers\crc -I..\..\..\..\src\drivers\bme -I..\..\..\..\src\drivers\iic -I..\..\..\..\src\drivers\pit -I..\..\..\..\src\drivers\PMC -I..\..\..\..\src\drivers\adc -I..\..\..\..\src\drivers\pwt -I..\..\..\..\src\drivers\bitband -I.\FreeRTOS\include -I.\FreeRTOS\portable\RVDS\ARM_CM0-I C:\Users\huangjidong\Desktop\FreeRTOS_KE06\kexx_drv_lib\build\keil\ke06\FreeRTOS_KE06\RTE-I D:\Software\keil\Keil\Kinetis_KExx_DFP\1.7.0\Device\Include-I D:\Software\keil\ARM\CMSIS\Include-D__UVISION_VERSION="517" -DMKE06Z128xxx4 -DKEIL -DFRDM_KE06 -DCPU_KE06 -DCMSIS-o .\output\sim.o --omf_browse .\output\sim.crf --depend .\output\sim.d)
+I (..\..\..\..\src\common\common.h)(0x53217EC8)
+I (..\..\..\..\src\cpu\arm_cm0.h)(0x53217EC8)
+I (..\..\..\..\src\platforms\ke06_config.h)(0x53217EC8)
+I (D:\Software\keil\ARM\ARMCC\include\stdint.h)(0x55DB2B80)
+I (..\..\..\..\src\cpu\headers\MKE06Z4.h)(0x53217EC8)
+I (..\..\..\..\src\cpu\headers\core_cm0plus.h)(0x5625B70C)
+I (..\..\..\..\src\cpu\headers\core_cmInstr.h)(0x5625A350)
+I (..\..\..\..\src\cpu\headers\cmsis_armcc.h)(0x5625A350)
+I (..\..\..\..\src\cpu\headers\core_cmFunc.h)(0x5625A350)
+I (..\..\..\..\src\cpu\system_MKE06Z4.h)(0x53217EC8)
+I (..\..\..\..\src\common\assert.h)(0x53217EC8)
+I (..\..\..\..\src\common\io.h)(0x53217EC8)
+I (..\..\..\..\src\common\startup.h)(0x53217EC8)
+I (..\..\..\..\src\common\stdlib.h)(0x53217EC8)
+I (..\..\..\..\src\drivers\sim\sim.h)(0x53217EC8)
+F (..\..\..\..\src\drivers\rtc\rtc.c)(0x53217EC8)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O2 --apcs=interwork -I..\..\..\..\src\projects\ke06\FreeRTOS_KE06 -I..\..\..\..\src\common -I..\..\..\..\src\cpu -I..\..\..\..\src\cpu\headers -I..\..\..\..\src\drivers\uart -I..\..\..\..\src\drivers\acmp -I..\..\..\..\src\platforms -I..\.. -I..\..\..\..\src\drivers\ics -I..\..\..\..\src\drivers\rtc -I..\..\..\..\src\drivers\wdog -I..\..\..\..\src\drivers\ftm -I..\..\..\..\src\drivers\nvm -I..\..\..\..\src\drivers\sim -I..\..\..\..\src\drivers\spi -I..\..\..\..\src\drivers\kbi -I..\..\..\..\src\drivers\gpio -I..\..\..\..\src\drivers\crc -I..\..\..\..\src\drivers\bme -I..\..\..\..\src\drivers\iic -I..\..\..\..\src\drivers\pit -I..\..\..\..\src\drivers\PMC -I..\..\..\..\src\drivers\adc -I..\..\..\..\src\drivers\pwt -I..\..\..\..\src\drivers\bitband -I.\FreeRTOS\include -I.\FreeRTOS\portable\RVDS\ARM_CM0-I C:\Users\huangjidong\Desktop\FreeRTOS_KE06\kexx_drv_lib\build\keil\ke06\FreeRTOS_KE06\RTE-I D:\Software\keil\Keil\Kinetis_KExx_DFP\1.7.0\Device\Include-I D:\Software\keil\ARM\CMSIS\Include-D__UVISION_VERSION="517" -DMKE06Z128xxx4 -DKEIL -DFRDM_KE06 -DCPU_KE06 -DCMSIS-o .\output\rtc.o --omf_browse .\output\rtc.crf --depend .\output\rtc.d)
+I (..\..\..\..\src\common\common.h)(0x53217EC8)
+I (..\..\..\..\src\cpu\arm_cm0.h)(0x53217EC8)
+I (..\..\..\..\src\platforms\ke06_config.h)(0x53217EC8)
+I (D:\Software\keil\ARM\ARMCC\include\stdint.h)(0x55DB2B80)
+I (..\..\..\..\src\cpu\headers\MKE06Z4.h)(0x53217EC8)
+I (..\..\..\..\src\cpu\headers\core_cm0plus.h)(0x5625B70C)
+I (..\..\..\..\src\cpu\headers\core_cmInstr.h)(0x5625A350)
+I (..\..\..\..\src\cpu\headers\cmsis_armcc.h)(0x5625A350)
+I (..\..\..\..\src\cpu\headers\core_cmFunc.h)(0x5625A350)
+I (..\..\..\..\src\cpu\system_MKE06Z4.h)(0x53217EC8)
+I (..\..\..\..\src\common\assert.h)(0x53217EC8)
+I (..\..\..\..\src\common\io.h)(0x53217EC8)
+I (..\..\..\..\src\common\startup.h)(0x53217EC8)
+I (..\..\..\..\src\common\stdlib.h)(0x53217EC8)
+I (..\..\..\..\src\drivers\rtc\rtc.h)(0x53217EC8)
+F (..\..\..\..\src\drivers\ics\ics.c)(0x53217EC8)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O2 --apcs=interwork -I..\..\..\..\src\projects\ke06\FreeRTOS_KE06 -I..\..\..\..\src\common -I..\..\..\..\src\cpu -I..\..\..\..\src\cpu\headers -I..\..\..\..\src\drivers\uart -I..\..\..\..\src\drivers\acmp -I..\..\..\..\src\platforms -I..\.. -I..\..\..\..\src\drivers\ics -I..\..\..\..\src\drivers\rtc -I..\..\..\..\src\drivers\wdog -I..\..\..\..\src\drivers\ftm -I..\..\..\..\src\drivers\nvm -I..\..\..\..\src\drivers\sim -I..\..\..\..\src\drivers\spi -I..\..\..\..\src\drivers\kbi -I..\..\..\..\src\drivers\gpio -I..\..\..\..\src\drivers\crc -I..\..\..\..\src\drivers\bme -I..\..\..\..\src\drivers\iic -I..\..\..\..\src\drivers\pit -I..\..\..\..\src\drivers\PMC -I..\..\..\..\src\drivers\adc -I..\..\..\..\src\drivers\pwt -I..\..\..\..\src\drivers\bitband -I.\FreeRTOS\include -I.\FreeRTOS\portable\RVDS\ARM_CM0-I C:\Users\huangjidong\Desktop\FreeRTOS_KE06\kexx_drv_lib\build\keil\ke06\FreeRTOS_KE06\RTE-I D:\Software\keil\Keil\Kinetis_KExx_DFP\1.7.0\Device\Include-I D:\Software\keil\ARM\CMSIS\Include-D__UVISION_VERSION="517" -DMKE06Z128xxx4 -DKEIL -DFRDM_KE06 -DCPU_KE06 -DCMSIS-o .\output\ics.o --omf_browse .\output\ics.crf --depend .\output\ics.d)
+I (..\..\..\..\src\common\common.h)(0x53217EC8)
+I (..\..\..\..\src\cpu\arm_cm0.h)(0x53217EC8)
+I (..\..\..\..\src\platforms\ke06_config.h)(0x53217EC8)
+I (D:\Software\keil\ARM\ARMCC\include\stdint.h)(0x55DB2B80)
+I (..\..\..\..\src\cpu\headers\MKE06Z4.h)(0x53217EC8)
+I (..\..\..\..\src\cpu\headers\core_cm0plus.h)(0x5625B70C)
+I (..\..\..\..\src\cpu\headers\core_cmInstr.h)(0x5625A350)
+I (..\..\..\..\src\cpu\headers\cmsis_armcc.h)(0x5625A350)
+I (..\..\..\..\src\cpu\headers\core_cmFunc.h)(0x5625A350)
+I (..\..\..\..\src\cpu\system_MKE06Z4.h)(0x53217EC8)
+I (..\..\..\..\src\common\assert.h)(0x53217EC8)
+I (..\..\..\..\src\common\io.h)(0x53217EC8)
+I (..\..\..\..\src\common\startup.h)(0x53217EC8)
+I (..\..\..\..\src\common\stdlib.h)(0x53217EC8)
+I (..\..\..\..\src\drivers\ics\ics.h)(0x53217EC8)
+F (..\..\..\..\src\drivers\acmp\acmp.c)(0x53217EC8)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O2 --apcs=interwork -I..\..\..\..\src\projects\ke06\FreeRTOS_KE06 -I..\..\..\..\src\common -I..\..\..\..\src\cpu -I..\..\..\..\src\cpu\headers -I..\..\..\..\src\drivers\uart -I..\..\..\..\src\drivers\acmp -I..\..\..\..\src\platforms -I..\.. -I..\..\..\..\src\drivers\ics -I..\..\..\..\src\drivers\rtc -I..\..\..\..\src\drivers\wdog -I..\..\..\..\src\drivers\ftm -I..\..\..\..\src\drivers\nvm -I..\..\..\..\src\drivers\sim -I..\..\..\..\src\drivers\spi -I..\..\..\..\src\drivers\kbi -I..\..\..\..\src\drivers\gpio -I..\..\..\..\src\drivers\crc -I..\..\..\..\src\drivers\bme -I..\..\..\..\src\drivers\iic -I..\..\..\..\src\drivers\pit -I..\..\..\..\src\drivers\PMC -I..\..\..\..\src\drivers\adc -I..\..\..\..\src\drivers\pwt -I..\..\..\..\src\drivers\bitband -I.\FreeRTOS\include -I.\FreeRTOS\portable\RVDS\ARM_CM0-I C:\Users\huangjidong\Desktop\FreeRTOS_KE06\kexx_drv_lib\build\keil\ke06\FreeRTOS_KE06\RTE-I D:\Software\keil\Keil\Kinetis_KExx_DFP\1.7.0\Device\Include-I D:\Software\keil\ARM\CMSIS\Include-D__UVISION_VERSION="517" -DMKE06Z128xxx4 -DKEIL -DFRDM_KE06 -DCPU_KE06 -DCMSIS-o .\output\acmp.o --omf_browse .\output\acmp.crf --depend .\output\acmp.d)
+I (..\..\..\..\src\common\common.h)(0x53217EC8)
+I (..\..\..\..\src\cpu\arm_cm0.h)(0x53217EC8)
+I (..\..\..\..\src\platforms\ke06_config.h)(0x53217EC8)
+I (D:\Software\keil\ARM\ARMCC\include\stdint.h)(0x55DB2B80)
+I (..\..\..\..\src\cpu\headers\MKE06Z4.h)(0x53217EC8)
+I (..\..\..\..\src\cpu\headers\core_cm0plus.h)(0x5625B70C)
+I (..\..\..\..\src\cpu\headers\core_cmInstr.h)(0x5625A350)
+I (..\..\..\..\src\cpu\headers\cmsis_armcc.h)(0x5625A350)
+I (..\..\..\..\src\cpu\headers\core_cmFunc.h)(0x5625A350)
+I (..\..\..\..\src\cpu\system_MKE06Z4.h)(0x53217EC8)
+I (..\..\..\..\src\common\assert.h)(0x53217EC8)
+I (..\..\..\..\src\common\io.h)(0x53217EC8)
+I (..\..\..\..\src\common\startup.h)(0x53217EC8)
+I (..\..\..\..\src\common\stdlib.h)(0x53217EC8)
+I (..\..\..\..\src\drivers\acmp\acmp.h)(0x53217EC8)
+F (..\..\..\..\src\drivers\adc\adc.c)(0x53217EC8)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O2 --apcs=interwork -I..\..\..\..\src\projects\ke06\FreeRTOS_KE06 -I..\..\..\..\src\common -I..\..\..\..\src\cpu -I..\..\..\..\src\cpu\headers -I..\..\..\..\src\drivers\uart -I..\..\..\..\src\drivers\acmp -I..\..\..\..\src\platforms -I..\.. -I..\..\..\..\src\drivers\ics -I..\..\..\..\src\drivers\rtc -I..\..\..\..\src\drivers\wdog -I..\..\..\..\src\drivers\ftm -I..\..\..\..\src\drivers\nvm -I..\..\..\..\src\drivers\sim -I..\..\..\..\src\drivers\spi -I..\..\..\..\src\drivers\kbi -I..\..\..\..\src\drivers\gpio -I..\..\..\..\src\drivers\crc -I..\..\..\..\src\drivers\bme -I..\..\..\..\src\drivers\iic -I..\..\..\..\src\drivers\pit -I..\..\..\..\src\drivers\PMC -I..\..\..\..\src\drivers\adc -I..\..\..\..\src\drivers\pwt -I..\..\..\..\src\drivers\bitband -I.\FreeRTOS\include -I.\FreeRTOS\portable\RVDS\ARM_CM0-I C:\Users\huangjidong\Desktop\FreeRTOS_KE06\kexx_drv_lib\build\keil\ke06\FreeRTOS_KE06\RTE-I D:\Software\keil\Keil\Kinetis_KExx_DFP\1.7.0\Device\Include-I D:\Software\keil\ARM\CMSIS\Include-D__UVISION_VERSION="517" -DMKE06Z128xxx4 -DKEIL -DFRDM_KE06 -DCPU_KE06 -DCMSIS-o .\output\adc.o --omf_browse .\output\adc.crf --depend .\output\adc.d)
+I (..\..\..\..\src\common\common.h)(0x53217EC8)
+I (..\..\..\..\src\cpu\arm_cm0.h)(0x53217EC8)
+I (..\..\..\..\src\platforms\ke06_config.h)(0x53217EC8)
+I (D:\Software\keil\ARM\ARMCC\include\stdint.h)(0x55DB2B80)
+I (..\..\..\..\src\cpu\headers\MKE06Z4.h)(0x53217EC8)
+I (..\..\..\..\src\cpu\headers\core_cm0plus.h)(0x5625B70C)
+I (..\..\..\..\src\cpu\headers\core_cmInstr.h)(0x5625A350)
+I (..\..\..\..\src\cpu\headers\cmsis_armcc.h)(0x5625A350)
+I (..\..\..\..\src\cpu\headers\core_cmFunc.h)(0x5625A350)
+I (..\..\..\..\src\cpu\system_MKE06Z4.h)(0x53217EC8)
+I (..\..\..\..\src\common\assert.h)(0x53217EC8)
+I (..\..\..\..\src\common\io.h)(0x53217EC8)
+I (..\..\..\..\src\common\startup.h)(0x53217EC8)
+I (..\..\..\..\src\common\stdlib.h)(0x53217EC8)
+I (..\..\..\..\src\drivers\adc\adc.h)(0x53217EC8)
+F (..\..\..\..\src\drivers\can\mscan.c)(0x53217EC8)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O2 --apcs=interwork -I..\..\..\..\src\projects\ke06\FreeRTOS_KE06 -I..\..\..\..\src\common -I..\..\..\..\src\cpu -I..\..\..\..\src\cpu\headers -I..\..\..\..\src\drivers\uart -I..\..\..\..\src\drivers\acmp -I..\..\..\..\src\platforms -I..\.. -I..\..\..\..\src\drivers\ics -I..\..\..\..\src\drivers\rtc -I..\..\..\..\src\drivers\wdog -I..\..\..\..\src\drivers\ftm -I..\..\..\..\src\drivers\nvm -I..\..\..\..\src\drivers\sim -I..\..\..\..\src\drivers\spi -I..\..\..\..\src\drivers\kbi -I..\..\..\..\src\drivers\gpio -I..\..\..\..\src\drivers\crc -I..\..\..\..\src\drivers\bme -I..\..\..\..\src\drivers\iic -I..\..\..\..\src\drivers\pit -I..\..\..\..\src\drivers\PMC -I..\..\..\..\src\drivers\adc -I..\..\..\..\src\drivers\pwt -I..\..\..\..\src\drivers\bitband -I.\FreeRTOS\include -I.\FreeRTOS\portable\RVDS\ARM_CM0-I C:\Users\huangjidong\Desktop\FreeRTOS_KE06\kexx_drv_lib\build\keil\ke06\FreeRTOS_KE06\RTE-I D:\Software\keil\Keil\Kinetis_KExx_DFP\1.7.0\Device\Include-I D:\Software\keil\ARM\CMSIS\Include-D__UVISION_VERSION="517" -DMKE06Z128xxx4 -DKEIL -DFRDM_KE06 -DCPU_KE06 -DCMSIS-o .\output\mscan.o --omf_browse .\output\mscan.crf --depend .\output\mscan.d)
+I (..\..\..\..\src\common\common.h)(0x53217EC8)
+I (..\..\..\..\src\cpu\arm_cm0.h)(0x53217EC8)
+I (..\..\..\..\src\platforms\ke06_config.h)(0x53217EC8)
+I (D:\Software\keil\ARM\ARMCC\include\stdint.h)(0x55DB2B80)
+I (..\..\..\..\src\cpu\headers\MKE06Z4.h)(0x53217EC8)
+I (..\..\..\..\src\cpu\headers\core_cm0plus.h)(0x5625B70C)
+I (..\..\..\..\src\cpu\headers\core_cmInstr.h)(0x5625A350)
+I (..\..\..\..\src\cpu\headers\cmsis_armcc.h)(0x5625A350)
+I (..\..\..\..\src\cpu\headers\core_cmFunc.h)(0x5625A350)
+I (..\..\..\..\src\cpu\system_MKE06Z4.h)(0x53217EC8)
+I (..\..\..\..\src\common\assert.h)(0x53217EC8)
+I (..\..\..\..\src\common\io.h)(0x53217EC8)
+I (..\..\..\..\src\common\startup.h)(0x53217EC8)
+I (..\..\..\..\src\common\stdlib.h)(0x53217EC8)
+I (..\..\..\..\src\drivers\can\mscan.h)(0x53217EC8)
+F (..\..\..\..\src\drivers\crc\crc.c)(0x53217EC8)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O2 --apcs=interwork -I..\..\..\..\src\projects\ke06\FreeRTOS_KE06 -I..\..\..\..\src\common -I..\..\..\..\src\cpu -I..\..\..\..\src\cpu\headers -I..\..\..\..\src\drivers\uart -I..\..\..\..\src\drivers\acmp -I..\..\..\..\src\platforms -I..\.. -I..\..\..\..\src\drivers\ics -I..\..\..\..\src\drivers\rtc -I..\..\..\..\src\drivers\wdog -I..\..\..\..\src\drivers\ftm -I..\..\..\..\src\drivers\nvm -I..\..\..\..\src\drivers\sim -I..\..\..\..\src\drivers\spi -I..\..\..\..\src\drivers\kbi -I..\..\..\..\src\drivers\gpio -I..\..\..\..\src\drivers\crc -I..\..\..\..\src\drivers\bme -I..\..\..\..\src\drivers\iic -I..\..\..\..\src\drivers\pit -I..\..\..\..\src\drivers\PMC -I..\..\..\..\src\drivers\adc -I..\..\..\..\src\drivers\pwt -I..\..\..\..\src\drivers\bitband -I.\FreeRTOS\include -I.\FreeRTOS\portable\RVDS\ARM_CM0-I C:\Users\huangjidong\Desktop\FreeRTOS_KE06\kexx_drv_lib\build\keil\ke06\FreeRTOS_KE06\RTE-I D:\Software\keil\Keil\Kinetis_KExx_DFP\1.7.0\Device\Include-I D:\Software\keil\ARM\CMSIS\Include-D__UVISION_VERSION="517" -DMKE06Z128xxx4 -DKEIL -DFRDM_KE06 -DCPU_KE06 -DCMSIS-o .\output\crc.o --omf_browse .\output\crc.crf --depend .\output\crc.d)
+I (..\..\..\..\src\common\common.h)(0x53217EC8)
+I (..\..\..\..\src\cpu\arm_cm0.h)(0x53217EC8)
+I (..\..\..\..\src\platforms\ke06_config.h)(0x53217EC8)
+I (D:\Software\keil\ARM\ARMCC\include\stdint.h)(0x55DB2B80)
+I (..\..\..\..\src\cpu\headers\MKE06Z4.h)(0x53217EC8)
+I (..\..\..\..\src\cpu\headers\core_cm0plus.h)(0x5625B70C)
+I (..\..\..\..\src\cpu\headers\core_cmInstr.h)(0x5625A350)
+I (..\..\..\..\src\cpu\headers\cmsis_armcc.h)(0x5625A350)
+I (..\..\..\..\src\cpu\headers\core_cmFunc.h)(0x5625A350)
+I (..\..\..\..\src\cpu\system_MKE06Z4.h)(0x53217EC8)
+I (..\..\..\..\src\common\assert.h)(0x53217EC8)
+I (..\..\..\..\src\common\io.h)(0x53217EC8)
+I (..\..\..\..\src\common\startup.h)(0x53217EC8)
+I (..\..\..\..\src\common\stdlib.h)(0x53217EC8)
+I (..\..\..\..\src\drivers\crc\crc.h)(0x53217EC8)
+F (..\..\..\..\src\drivers\ftm\ftm.c)(0x53217EC8)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O2 --apcs=interwork -I..\..\..\..\src\projects\ke06\FreeRTOS_KE06 -I..\..\..\..\src\common -I..\..\..\..\src\cpu -I..\..\..\..\src\cpu\headers -I..\..\..\..\src\drivers\uart -I..\..\..\..\src\drivers\acmp -I..\..\..\..\src\platforms -I..\.. -I..\..\..\..\src\drivers\ics -I..\..\..\..\src\drivers\rtc -I..\..\..\..\src\drivers\wdog -I..\..\..\..\src\drivers\ftm -I..\..\..\..\src\drivers\nvm -I..\..\..\..\src\drivers\sim -I..\..\..\..\src\drivers\spi -I..\..\..\..\src\drivers\kbi -I..\..\..\..\src\drivers\gpio -I..\..\..\..\src\drivers\crc -I..\..\..\..\src\drivers\bme -I..\..\..\..\src\drivers\iic -I..\..\..\..\src\drivers\pit -I..\..\..\..\src\drivers\PMC -I..\..\..\..\src\drivers\adc -I..\..\..\..\src\drivers\pwt -I..\..\..\..\src\drivers\bitband -I.\FreeRTOS\include -I.\FreeRTOS\portable\RVDS\ARM_CM0-I C:\Users\huangjidong\Desktop\FreeRTOS_KE06\kexx_drv_lib\build\keil\ke06\FreeRTOS_KE06\RTE-I D:\Software\keil\Keil\Kinetis_KExx_DFP\1.7.0\Device\Include-I D:\Software\keil\ARM\CMSIS\Include-D__UVISION_VERSION="517" -DMKE06Z128xxx4 -DKEIL -DFRDM_KE06 -DCPU_KE06 -DCMSIS-o .\output\ftm.o --omf_browse .\output\ftm.crf --depend .\output\ftm.d)
+I (..\..\..\..\src\common\common.h)(0x53217EC8)
+I (..\..\..\..\src\cpu\arm_cm0.h)(0x53217EC8)
+I (..\..\..\..\src\platforms\ke06_config.h)(0x53217EC8)
+I (D:\Software\keil\ARM\ARMCC\include\stdint.h)(0x55DB2B80)
+I (..\..\..\..\src\cpu\headers\MKE06Z4.h)(0x53217EC8)
+I (..\..\..\..\src\cpu\headers\core_cm0plus.h)(0x5625B70C)
+I (..\..\..\..\src\cpu\headers\core_cmInstr.h)(0x5625A350)
+I (..\..\..\..\src\cpu\headers\cmsis_armcc.h)(0x5625A350)
+I (..\..\..\..\src\cpu\headers\core_cmFunc.h)(0x5625A350)
+I (..\..\..\..\src\cpu\system_MKE06Z4.h)(0x53217EC8)
+I (..\..\..\..\src\common\assert.h)(0x53217EC8)
+I (..\..\..\..\src\common\io.h)(0x53217EC8)
+I (..\..\..\..\src\common\startup.h)(0x53217EC8)
+I (..\..\..\..\src\common\stdlib.h)(0x53217EC8)
+I (..\..\..\..\src\drivers\ftm\ftm.h)(0x53217EC8)
+F (..\..\..\..\src\drivers\iic\i2c.c)(0x53217EC8)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O2 --apcs=interwork -I..\..\..\..\src\projects\ke06\FreeRTOS_KE06 -I..\..\..\..\src\common -I..\..\..\..\src\cpu -I..\..\..\..\src\cpu\headers -I..\..\..\..\src\drivers\uart -I..\..\..\..\src\drivers\acmp -I..\..\..\..\src\platforms -I..\.. -I..\..\..\..\src\drivers\ics -I..\..\..\..\src\drivers\rtc -I..\..\..\..\src\drivers\wdog -I..\..\..\..\src\drivers\ftm -I..\..\..\..\src\drivers\nvm -I..\..\..\..\src\drivers\sim -I..\..\..\..\src\drivers\spi -I..\..\..\..\src\drivers\kbi -I..\..\..\..\src\drivers\gpio -I..\..\..\..\src\drivers\crc -I..\..\..\..\src\drivers\bme -I..\..\..\..\src\drivers\iic -I..\..\..\..\src\drivers\pit -I..\..\..\..\src\drivers\PMC -I..\..\..\..\src\drivers\adc -I..\..\..\..\src\drivers\pwt -I..\..\..\..\src\drivers\bitband -I.\FreeRTOS\include -I.\FreeRTOS\portable\RVDS\ARM_CM0-I C:\Users\huangjidong\Desktop\FreeRTOS_KE06\kexx_drv_lib\build\keil\ke06\FreeRTOS_KE06\RTE-I D:\Software\keil\Keil\Kinetis_KExx_DFP\1.7.0\Device\Include-I D:\Software\keil\ARM\CMSIS\Include-D__UVISION_VERSION="517" -DMKE06Z128xxx4 -DKEIL -DFRDM_KE06 -DCPU_KE06 -DCMSIS-o .\output\i2c.o --omf_browse .\output\i2c.crf --depend .\output\i2c.d)
+I (..\..\..\..\src\common\common.h)(0x53217EC8)
+I (..\..\..\..\src\cpu\arm_cm0.h)(0x53217EC8)
+I (..\..\..\..\src\platforms\ke06_config.h)(0x53217EC8)
+I (D:\Software\keil\ARM\ARMCC\include\stdint.h)(0x55DB2B80)
+I (..\..\..\..\src\cpu\headers\MKE06Z4.h)(0x53217EC8)
+I (..\..\..\..\src\cpu\headers\core_cm0plus.h)(0x5625B70C)
+I (..\..\..\..\src\cpu\headers\core_cmInstr.h)(0x5625A350)
+I (..\..\..\..\src\cpu\headers\cmsis_armcc.h)(0x5625A350)
+I (..\..\..\..\src\cpu\headers\core_cmFunc.h)(0x5625A350)
+I (..\..\..\..\src\cpu\system_MKE06Z4.h)(0x53217EC8)
+I (..\..\..\..\src\common\assert.h)(0x53217EC8)
+I (..\..\..\..\src\common\io.h)(0x53217EC8)
+I (..\..\..\..\src\common\startup.h)(0x53217EC8)
+I (..\..\..\..\src\common\stdlib.h)(0x53217EC8)
+I (..\..\..\..\src\drivers\iic\i2c.h)(0x53217EC8)
+F (..\..\..\..\src\drivers\kbi\kbi.c)(0x53217EC8)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O2 --apcs=interwork -I..\..\..\..\src\projects\ke06\FreeRTOS_KE06 -I..\..\..\..\src\common -I..\..\..\..\src\cpu -I..\..\..\..\src\cpu\headers -I..\..\..\..\src\drivers\uart -I..\..\..\..\src\drivers\acmp -I..\..\..\..\src\platforms -I..\.. -I..\..\..\..\src\drivers\ics -I..\..\..\..\src\drivers\rtc -I..\..\..\..\src\drivers\wdog -I..\..\..\..\src\drivers\ftm -I..\..\..\..\src\drivers\nvm -I..\..\..\..\src\drivers\sim -I..\..\..\..\src\drivers\spi -I..\..\..\..\src\drivers\kbi -I..\..\..\..\src\drivers\gpio -I..\..\..\..\src\drivers\crc -I..\..\..\..\src\drivers\bme -I..\..\..\..\src\drivers\iic -I..\..\..\..\src\drivers\pit -I..\..\..\..\src\drivers\PMC -I..\..\..\..\src\drivers\adc -I..\..\..\..\src\drivers\pwt -I..\..\..\..\src\drivers\bitband -I.\FreeRTOS\include -I.\FreeRTOS\portable\RVDS\ARM_CM0-I C:\Users\huangjidong\Desktop\FreeRTOS_KE06\kexx_drv_lib\build\keil\ke06\FreeRTOS_KE06\RTE-I D:\Software\keil\Keil\Kinetis_KExx_DFP\1.7.0\Device\Include-I D:\Software\keil\ARM\CMSIS\Include-D__UVISION_VERSION="517" -DMKE06Z128xxx4 -DKEIL -DFRDM_KE06 -DCPU_KE06 -DCMSIS-o .\output\kbi.o --omf_browse .\output\kbi.crf --depend .\output\kbi.d)
+I (..\..\..\..\src\common\common.h)(0x53217EC8)
+I (..\..\..\..\src\cpu\arm_cm0.h)(0x53217EC8)
+I (..\..\..\..\src\platforms\ke06_config.h)(0x53217EC8)
+I (D:\Software\keil\ARM\ARMCC\include\stdint.h)(0x55DB2B80)
+I (..\..\..\..\src\cpu\headers\MKE06Z4.h)(0x53217EC8)
+I (..\..\..\..\src\cpu\headers\core_cm0plus.h)(0x5625B70C)
+I (..\..\..\..\src\cpu\headers\core_cmInstr.h)(0x5625A350)
+I (..\..\..\..\src\cpu\headers\cmsis_armcc.h)(0x5625A350)
+I (..\..\..\..\src\cpu\headers\core_cmFunc.h)(0x5625A350)
+I (..\..\..\..\src\cpu\system_MKE06Z4.h)(0x53217EC8)
+I (..\..\..\..\src\common\assert.h)(0x53217EC8)
+I (..\..\..\..\src\common\io.h)(0x53217EC8)
+I (..\..\..\..\src\common\startup.h)(0x53217EC8)
+I (..\..\..\..\src\common\stdlib.h)(0x53217EC8)
+I (..\..\..\..\src\drivers\kbi\kbi.h)(0x53217EC8)
+F (..\..\..\..\src\drivers\nvm\flash.c)(0x53217EC8)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O2 --apcs=interwork -I..\..\..\..\src\projects\ke06\FreeRTOS_KE06 -I..\..\..\..\src\common -I..\..\..\..\src\cpu -I..\..\..\..\src\cpu\headers -I..\..\..\..\src\drivers\uart -I..\..\..\..\src\drivers\acmp -I..\..\..\..\src\platforms -I..\.. -I..\..\..\..\src\drivers\ics -I..\..\..\..\src\drivers\rtc -I..\..\..\..\src\drivers\wdog -I..\..\..\..\src\drivers\ftm -I..\..\..\..\src\drivers\nvm -I..\..\..\..\src\drivers\sim -I..\..\..\..\src\drivers\spi -I..\..\..\..\src\drivers\kbi -I..\..\..\..\src\drivers\gpio -I..\..\..\..\src\drivers\crc -I..\..\..\..\src\drivers\bme -I..\..\..\..\src\drivers\iic -I..\..\..\..\src\drivers\pit -I..\..\..\..\src\drivers\PMC -I..\..\..\..\src\drivers\adc -I..\..\..\..\src\drivers\pwt -I..\..\..\..\src\drivers\bitband -I.\FreeRTOS\include -I.\FreeRTOS\portable\RVDS\ARM_CM0-I C:\Users\huangjidong\Desktop\FreeRTOS_KE06\kexx_drv_lib\build\keil\ke06\FreeRTOS_KE06\RTE-I D:\Software\keil\Keil\Kinetis_KExx_DFP\1.7.0\Device\Include-I D:\Software\keil\ARM\CMSIS\Include-D__UVISION_VERSION="517" -DMKE06Z128xxx4 -DKEIL -DFRDM_KE06 -DCPU_KE06 -DCMSIS-o .\output\flash.o --omf_browse .\output\flash.crf --depend .\output\flash.d)
+I (..\..\..\..\src\drivers\nvm\flash.h)(0x53217EC8)
+I (..\..\..\..\src\common\common.h)(0x53217EC8)
+I (..\..\..\..\src\cpu\arm_cm0.h)(0x53217EC8)
+I (..\..\..\..\src\platforms\ke06_config.h)(0x53217EC8)
+I (D:\Software\keil\ARM\ARMCC\include\stdint.h)(0x55DB2B80)
+I (..\..\..\..\src\cpu\headers\MKE06Z4.h)(0x53217EC8)
+I (..\..\..\..\src\cpu\headers\core_cm0plus.h)(0x5625B70C)
+I (..\..\..\..\src\cpu\headers\core_cmInstr.h)(0x5625A350)
+I (..\..\..\..\src\cpu\headers\cmsis_armcc.h)(0x5625A350)
+I (..\..\..\..\src\cpu\headers\core_cmFunc.h)(0x5625A350)
+I (..\..\..\..\src\cpu\system_MKE06Z4.h)(0x53217EC8)
+I (..\..\..\..\src\common\assert.h)(0x53217EC8)
+I (..\..\..\..\src\common\io.h)(0x53217EC8)
+I (..\..\..\..\src\common\startup.h)(0x53217EC8)
+I (..\..\..\..\src\common\stdlib.h)(0x53217EC8)
+F (..\..\..\..\src\drivers\pit\pit.c)(0x53217EC8)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O2 --apcs=interwork -I..\..\..\..\src\projects\ke06\FreeRTOS_KE06 -I..\..\..\..\src\common -I..\..\..\..\src\cpu -I..\..\..\..\src\cpu\headers -I..\..\..\..\src\drivers\uart -I..\..\..\..\src\drivers\acmp -I..\..\..\..\src\platforms -I..\.. -I..\..\..\..\src\drivers\ics -I..\..\..\..\src\drivers\rtc -I..\..\..\..\src\drivers\wdog -I..\..\..\..\src\drivers\ftm -I..\..\..\..\src\drivers\nvm -I..\..\..\..\src\drivers\sim -I..\..\..\..\src\drivers\spi -I..\..\..\..\src\drivers\kbi -I..\..\..\..\src\drivers\gpio -I..\..\..\..\src\drivers\crc -I..\..\..\..\src\drivers\bme -I..\..\..\..\src\drivers\iic -I..\..\..\..\src\drivers\pit -I..\..\..\..\src\drivers\PMC -I..\..\..\..\src\drivers\adc -I..\..\..\..\src\drivers\pwt -I..\..\..\..\src\drivers\bitband -I.\FreeRTOS\include -I.\FreeRTOS\portable\RVDS\ARM_CM0-I C:\Users\huangjidong\Desktop\FreeRTOS_KE06\kexx_drv_lib\build\keil\ke06\FreeRTOS_KE06\RTE-I D:\Software\keil\Keil\Kinetis_KExx_DFP\1.7.0\Device\Include-I D:\Software\keil\ARM\CMSIS\Include-D__UVISION_VERSION="517" -DMKE06Z128xxx4 -DKEIL -DFRDM_KE06 -DCPU_KE06 -DCMSIS-o .\output\pit.o --omf_browse .\output\pit.crf --depend .\output\pit.d)
+I (..\..\..\..\src\common\common.h)(0x53217EC8)
+I (..\..\..\..\src\cpu\arm_cm0.h)(0x53217EC8)
+I (..\..\..\..\src\platforms\ke06_config.h)(0x53217EC8)
+I (D:\Software\keil\ARM\ARMCC\include\stdint.h)(0x55DB2B80)
+I (..\..\..\..\src\cpu\headers\MKE06Z4.h)(0x53217EC8)
+I (..\..\..\..\src\cpu\headers\core_cm0plus.h)(0x5625B70C)
+I (..\..\..\..\src\cpu\headers\core_cmInstr.h)(0x5625A350)
+I (..\..\..\..\src\cpu\headers\cmsis_armcc.h)(0x5625A350)
+I (..\..\..\..\src\cpu\headers\core_cmFunc.h)(0x5625A350)
+I (..\..\..\..\src\cpu\system_MKE06Z4.h)(0x53217EC8)
+I (..\..\..\..\src\common\assert.h)(0x53217EC8)
+I (..\..\..\..\src\common\io.h)(0x53217EC8)
+I (..\..\..\..\src\common\startup.h)(0x53217EC8)
+I (..\..\..\..\src\common\stdlib.h)(0x53217EC8)
+I (..\..\..\..\src\drivers\pit\pit.h)(0x53217EC8)
+F (..\..\..\..\src\drivers\PMC\pmc.c)(0x53217EC8)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O2 --apcs=interwork -I..\..\..\..\src\projects\ke06\FreeRTOS_KE06 -I..\..\..\..\src\common -I..\..\..\..\src\cpu -I..\..\..\..\src\cpu\headers -I..\..\..\..\src\drivers\uart -I..\..\..\..\src\drivers\acmp -I..\..\..\..\src\platforms -I..\.. -I..\..\..\..\src\drivers\ics -I..\..\..\..\src\drivers\rtc -I..\..\..\..\src\drivers\wdog -I..\..\..\..\src\drivers\ftm -I..\..\..\..\src\drivers\nvm -I..\..\..\..\src\drivers\sim -I..\..\..\..\src\drivers\spi -I..\..\..\..\src\drivers\kbi -I..\..\..\..\src\drivers\gpio -I..\..\..\..\src\drivers\crc -I..\..\..\..\src\drivers\bme -I..\..\..\..\src\drivers\iic -I..\..\..\..\src\drivers\pit -I..\..\..\..\src\drivers\PMC -I..\..\..\..\src\drivers\adc -I..\..\..\..\src\drivers\pwt -I..\..\..\..\src\drivers\bitband -I.\FreeRTOS\include -I.\FreeRTOS\portable\RVDS\ARM_CM0-I C:\Users\huangjidong\Desktop\FreeRTOS_KE06\kexx_drv_lib\build\keil\ke06\FreeRTOS_KE06\RTE-I D:\Software\keil\Keil\Kinetis_KExx_DFP\1.7.0\Device\Include-I D:\Software\keil\ARM\CMSIS\Include-D__UVISION_VERSION="517" -DMKE06Z128xxx4 -DKEIL -DFRDM_KE06 -DCPU_KE06 -DCMSIS-o .\output\pmc.o --omf_browse .\output\pmc.crf --depend .\output\pmc.d)
+I (..\..\..\..\src\common\common.h)(0x53217EC8)
+I (..\..\..\..\src\cpu\arm_cm0.h)(0x53217EC8)
+I (..\..\..\..\src\platforms\ke06_config.h)(0x53217EC8)
+I (D:\Software\keil\ARM\ARMCC\include\stdint.h)(0x55DB2B80)
+I (..\..\..\..\src\cpu\headers\MKE06Z4.h)(0x53217EC8)
+I (..\..\..\..\src\cpu\headers\core_cm0plus.h)(0x5625B70C)
+I (..\..\..\..\src\cpu\headers\core_cmInstr.h)(0x5625A350)
+I (..\..\..\..\src\cpu\headers\cmsis_armcc.h)(0x5625A350)
+I (..\..\..\..\src\cpu\headers\core_cmFunc.h)(0x5625A350)
+I (..\..\..\..\src\cpu\system_MKE06Z4.h)(0x53217EC8)
+I (..\..\..\..\src\common\assert.h)(0x53217EC8)
+I (..\..\..\..\src\common\io.h)(0x53217EC8)
+I (..\..\..\..\src\common\startup.h)(0x53217EC8)
+I (..\..\..\..\src\common\stdlib.h)(0x53217EC8)
+I (..\..\..\..\src\drivers\PMC\pmc.h)(0x53217EC8)
+F (..\..\..\..\src\drivers\pwt\pwt.c)(0x53217EC8)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O2 --apcs=interwork -I..\..\..\..\src\projects\ke06\FreeRTOS_KE06 -I..\..\..\..\src\common -I..\..\..\..\src\cpu -I..\..\..\..\src\cpu\headers -I..\..\..\..\src\drivers\uart -I..\..\..\..\src\drivers\acmp -I..\..\..\..\src\platforms -I..\.. -I..\..\..\..\src\drivers\ics -I..\..\..\..\src\drivers\rtc -I..\..\..\..\src\drivers\wdog -I..\..\..\..\src\drivers\ftm -I..\..\..\..\src\drivers\nvm -I..\..\..\..\src\drivers\sim -I..\..\..\..\src\drivers\spi -I..\..\..\..\src\drivers\kbi -I..\..\..\..\src\drivers\gpio -I..\..\..\..\src\drivers\crc -I..\..\..\..\src\drivers\bme -I..\..\..\..\src\drivers\iic -I..\..\..\..\src\drivers\pit -I..\..\..\..\src\drivers\PMC -I..\..\..\..\src\drivers\adc -I..\..\..\..\src\drivers\pwt -I..\..\..\..\src\drivers\bitband -I.\FreeRTOS\include -I.\FreeRTOS\portable\RVDS\ARM_CM0-I C:\Users\huangjidong\Desktop\FreeRTOS_KE06\kexx_drv_lib\build\keil\ke06\FreeRTOS_KE06\RTE-I D:\Software\keil\Keil\Kinetis_KExx_DFP\1.7.0\Device\Include-I D:\Software\keil\ARM\CMSIS\Include-D__UVISION_VERSION="517" -DMKE06Z128xxx4 -DKEIL -DFRDM_KE06 -DCPU_KE06 -DCMSIS-o .\output\pwt.o --omf_browse .\output\pwt.crf --depend .\output\pwt.d)
+I (..\..\..\..\src\common\common.h)(0x53217EC8)
+I (..\..\..\..\src\cpu\arm_cm0.h)(0x53217EC8)
+I (..\..\..\..\src\platforms\ke06_config.h)(0x53217EC8)
+I (D:\Software\keil\ARM\ARMCC\include\stdint.h)(0x55DB2B80)
+I (..\..\..\..\src\cpu\headers\MKE06Z4.h)(0x53217EC8)
+I (..\..\..\..\src\cpu\headers\core_cm0plus.h)(0x5625B70C)
+I (..\..\..\..\src\cpu\headers\core_cmInstr.h)(0x5625A350)
+I (..\..\..\..\src\cpu\headers\cmsis_armcc.h)(0x5625A350)
+I (..\..\..\..\src\cpu\headers\core_cmFunc.h)(0x5625A350)
+I (..\..\..\..\src\cpu\system_MKE06Z4.h)(0x53217EC8)
+I (..\..\..\..\src\common\assert.h)(0x53217EC8)
+I (..\..\..\..\src\common\io.h)(0x53217EC8)
+I (..\..\..\..\src\common\startup.h)(0x53217EC8)
+I (..\..\..\..\src\common\stdlib.h)(0x53217EC8)
+I (..\..\..\..\src\drivers\pwt\pwt.h)(0x53217EC8)
+F (..\..\..\..\src\drivers\spi\spi.c)(0x53217EC8)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O2 --apcs=interwork -I..\..\..\..\src\projects\ke06\FreeRTOS_KE06 -I..\..\..\..\src\common -I..\..\..\..\src\cpu -I..\..\..\..\src\cpu\headers -I..\..\..\..\src\drivers\uart -I..\..\..\..\src\drivers\acmp -I..\..\..\..\src\platforms -I..\.. -I..\..\..\..\src\drivers\ics -I..\..\..\..\src\drivers\rtc -I..\..\..\..\src\drivers\wdog -I..\..\..\..\src\drivers\ftm -I..\..\..\..\src\drivers\nvm -I..\..\..\..\src\drivers\sim -I..\..\..\..\src\drivers\spi -I..\..\..\..\src\drivers\kbi -I..\..\..\..\src\drivers\gpio -I..\..\..\..\src\drivers\crc -I..\..\..\..\src\drivers\bme -I..\..\..\..\src\drivers\iic -I..\..\..\..\src\drivers\pit -I..\..\..\..\src\drivers\PMC -I..\..\..\..\src\drivers\adc -I..\..\..\..\src\drivers\pwt -I..\..\..\..\src\drivers\bitband -I.\FreeRTOS\include -I.\FreeRTOS\portable\RVDS\ARM_CM0-I C:\Users\huangjidong\Desktop\FreeRTOS_KE06\kexx_drv_lib\build\keil\ke06\FreeRTOS_KE06\RTE-I D:\Software\keil\Keil\Kinetis_KExx_DFP\1.7.0\Device\Include-I D:\Software\keil\ARM\CMSIS\Include-D__UVISION_VERSION="517" -DMKE06Z128xxx4 -DKEIL -DFRDM_KE06 -DCPU_KE06 -DCMSIS-o .\output\spi.o --omf_browse .\output\spi.crf --depend .\output\spi.d)
+I (..\..\..\..\src\common\common.h)(0x53217EC8)
+I (..\..\..\..\src\cpu\arm_cm0.h)(0x53217EC8)
+I (..\..\..\..\src\platforms\ke06_config.h)(0x53217EC8)
+I (D:\Software\keil\ARM\ARMCC\include\stdint.h)(0x55DB2B80)
+I (..\..\..\..\src\cpu\headers\MKE06Z4.h)(0x53217EC8)
+I (..\..\..\..\src\cpu\headers\core_cm0plus.h)(0x5625B70C)
+I (..\..\..\..\src\cpu\headers\core_cmInstr.h)(0x5625A350)
+I (..\..\..\..\src\cpu\headers\cmsis_armcc.h)(0x5625A350)
+I (..\..\..\..\src\cpu\headers\core_cmFunc.h)(0x5625A350)
+I (..\..\..\..\src\cpu\system_MKE06Z4.h)(0x53217EC8)
+I (..\..\..\..\src\common\assert.h)(0x53217EC8)
+I (..\..\..\..\src\common\io.h)(0x53217EC8)
+I (..\..\..\..\src\common\startup.h)(0x53217EC8)
+I (..\..\..\..\src\common\stdlib.h)(0x53217EC8)
+I (..\..\..\..\src\drivers\spi\spi.h)(0x53217EC8)
+F (..\..\..\..\src\platforms\ke06_config.h)(0x53217EC8)()
+F (..\..\..\..\src\projects\KE06\FreeRTOS_KE06\FreeRTOS_KE06.c)(0x5A2BC8C7)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O2 --apcs=interwork -I..\..\..\..\src\projects\ke06\FreeRTOS_KE06 -I..\..\..\..\src\common -I..\..\..\..\src\cpu -I..\..\..\..\src\cpu\headers -I..\..\..\..\src\drivers\uart -I..\..\..\..\src\drivers\acmp -I..\..\..\..\src\platforms -I..\.. -I..\..\..\..\src\drivers\ics -I..\..\..\..\src\drivers\rtc -I..\..\..\..\src\drivers\wdog -I..\..\..\..\src\drivers\ftm -I..\..\..\..\src\drivers\nvm -I..\..\..\..\src\drivers\sim -I..\..\..\..\src\drivers\spi -I..\..\..\..\src\drivers\kbi -I..\..\..\..\src\drivers\gpio -I..\..\..\..\src\drivers\crc -I..\..\..\..\src\drivers\bme -I..\..\..\..\src\drivers\iic -I..\..\..\..\src\drivers\pit -I..\..\..\..\src\drivers\PMC -I..\..\..\..\src\drivers\adc -I..\..\..\..\src\drivers\pwt -I..\..\..\..\src\drivers\bitband -I.\FreeRTOS\include -I.\FreeRTOS\portable\RVDS\ARM_CM0-I C:\Users\huangjidong\Desktop\FreeRTOS_KE06\kexx_drv_lib\build\keil\ke06\FreeRTOS_KE06\RTE-I D:\Software\keil\Keil\Kinetis_KExx_DFP\1.7.0\Device\Include-I D:\Software\keil\ARM\CMSIS\Include-D__UVISION_VERSION="517" -DMKE06Z128xxx4 -DKEIL -DFRDM_KE06 -DCPU_KE06 -DCMSIS-o .\output\freertos_ke06.o --omf_browse .\output\freertos_ke06.crf --depend .\output\freertos_ke06.d)
+I (..\..\..\..\src\common\common.h)(0x53217EC8)
+I (..\..\..\..\src\cpu\arm_cm0.h)(0x53217EC8)
+I (..\..\..\..\src\platforms\ke06_config.h)(0x53217EC8)
+I (D:\Software\keil\ARM\ARMCC\include\stdint.h)(0x55DB2B80)
+I (..\..\..\..\src\cpu\headers\MKE06Z4.h)(0x53217EC8)
+I (..\..\..\..\src\cpu\headers\core_cm0plus.h)(0x5625B70C)
+I (..\..\..\..\src\cpu\headers\core_cmInstr.h)(0x5625A350)
+I (..\..\..\..\src\cpu\headers\cmsis_armcc.h)(0x5625A350)
+I (..\..\..\..\src\cpu\headers\core_cmFunc.h)(0x5625A350)
+I (..\..\..\..\src\cpu\system_MKE06Z4.h)(0x53217EC8)
+I (..\..\..\..\src\common\assert.h)(0x53217EC8)
+I (..\..\..\..\src\common\io.h)(0x53217EC8)
+I (..\..\..\..\src\common\startup.h)(0x53217EC8)
+I (..\..\..\..\src\common\stdlib.h)(0x53217EC8)
+I (..\..\..\..\src\cpu\sysinit.h)(0x53217EC8)
+I (.\FreeRTOS\include\FreeRTOS.h)(0x573F3A16)
+I (D:\Software\keil\ARM\ARMCC\include\stddef.h)(0x55DB2B7E)
+I (.\FreeRTOS\include\FreeRTOSConfig.h)(0x5A2BC8DB)
+I (.\FreeRTOS\include\projdefs.h)(0x573F3A16)
+I (.\FreeRTOS\include\portable.h)(0x573F3A16)
+I (.\FreeRTOS\include\deprecated_definitions.h)(0x573F3A16)
+I (.\FreeRTOS\portable\RVDS\ARM_CM0\portmacro.h)(0x573F3A17)
+I (.\FreeRTOS\include\mpu_wrappers.h)(0x573F3A16)
+I (.\FreeRTOS\include\task.h)(0x573F3A16)
+I (.\FreeRTOS\include\list.h)(0x573F3A16)
+F (..\..\..\..\src\projects\KE06\FreeRTOS_KE06\isr.h)(0x5A2BC689)()
+F (.\FreeRTOS\include\FreeRTOSConfig.h)(0x5A2BC8DB)()
+F (.\FreeRTOS\croutine.c)(0x573F3A16)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O2 --apcs=interwork -I..\..\..\..\src\projects\ke06\FreeRTOS_KE06 -I..\..\..\..\src\common -I..\..\..\..\src\cpu -I..\..\..\..\src\cpu\headers -I..\..\..\..\src\drivers\uart -I..\..\..\..\src\drivers\acmp -I..\..\..\..\src\platforms -I..\.. -I..\..\..\..\src\drivers\ics -I..\..\..\..\src\drivers\rtc -I..\..\..\..\src\drivers\wdog -I..\..\..\..\src\drivers\ftm -I..\..\..\..\src\drivers\nvm -I..\..\..\..\src\drivers\sim -I..\..\..\..\src\drivers\spi -I..\..\..\..\src\drivers\kbi -I..\..\..\..\src\drivers\gpio -I..\..\..\..\src\drivers\crc -I..\..\..\..\src\drivers\bme -I..\..\..\..\src\drivers\iic -I..\..\..\..\src\drivers\pit -I..\..\..\..\src\drivers\PMC -I..\..\..\..\src\drivers\adc -I..\..\..\..\src\drivers\pwt -I..\..\..\..\src\drivers\bitband -I.\FreeRTOS\include -I.\FreeRTOS\portable\RVDS\ARM_CM0-I C:\Users\huangjidong\Desktop\FreeRTOS_KE06\kexx_drv_lib\build\keil\ke06\FreeRTOS_KE06\RTE-I D:\Software\keil\Keil\Kinetis_KExx_DFP\1.7.0\Device\Include-I D:\Software\keil\ARM\CMSIS\Include-D__UVISION_VERSION="517" -DMKE06Z128xxx4 -DKEIL -DFRDM_KE06 -DCPU_KE06 -DCMSIS-o .\output\croutine.o --omf_browse .\output\croutine.crf --depend .\output\croutine.d)
+I (.\FreeRTOS\include\FreeRTOS.h)(0x573F3A16)
+I (D:\Software\keil\ARM\ARMCC\include\stddef.h)(0x55DB2B7E)
+I (D:\Software\keil\ARM\ARMCC\include\stdint.h)(0x55DB2B80)
+I (.\FreeRTOS\include\FreeRTOSConfig.h)(0x5A2BC8DB)
+I (.\FreeRTOS\include\projdefs.h)(0x573F3A16)
+I (.\FreeRTOS\include\portable.h)(0x573F3A16)
+I (.\FreeRTOS\include\deprecated_definitions.h)(0x573F3A16)
+I (.\FreeRTOS\portable\RVDS\ARM_CM0\portmacro.h)(0x573F3A17)
+I (.\FreeRTOS\include\mpu_wrappers.h)(0x573F3A16)
+I (.\FreeRTOS\include\task.h)(0x573F3A16)
+I (.\FreeRTOS\include\list.h)(0x573F3A16)
+I (.\FreeRTOS\include\croutine.h)(0x573F3A16)
+F (.\FreeRTOS\event_groups.c)(0x573F3A16)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O2 --apcs=interwork -I..\..\..\..\src\projects\ke06\FreeRTOS_KE06 -I..\..\..\..\src\common -I..\..\..\..\src\cpu -I..\..\..\..\src\cpu\headers -I..\..\..\..\src\drivers\uart -I..\..\..\..\src\drivers\acmp -I..\..\..\..\src\platforms -I..\.. -I..\..\..\..\src\drivers\ics -I..\..\..\..\src\drivers\rtc -I..\..\..\..\src\drivers\wdog -I..\..\..\..\src\drivers\ftm -I..\..\..\..\src\drivers\nvm -I..\..\..\..\src\drivers\sim -I..\..\..\..\src\drivers\spi -I..\..\..\..\src\drivers\kbi -I..\..\..\..\src\drivers\gpio -I..\..\..\..\src\drivers\crc -I..\..\..\..\src\drivers\bme -I..\..\..\..\src\drivers\iic -I..\..\..\..\src\drivers\pit -I..\..\..\..\src\drivers\PMC -I..\..\..\..\src\drivers\adc -I..\..\..\..\src\drivers\pwt -I..\..\..\..\src\drivers\bitband -I.\FreeRTOS\include -I.\FreeRTOS\portable\RVDS\ARM_CM0-I C:\Users\huangjidong\Desktop\FreeRTOS_KE06\kexx_drv_lib\build\keil\ke06\FreeRTOS_KE06\RTE-I D:\Software\keil\Keil\Kinetis_KExx_DFP\1.7.0\Device\Include-I D:\Software\keil\ARM\CMSIS\Include-D__UVISION_VERSION="517" -DMKE06Z128xxx4 -DKEIL -DFRDM_KE06 -DCPU_KE06 -DCMSIS-o .\output\event_groups.o --omf_browse .\output\event_groups.crf --depend .\output\event_groups.d)
+I (D:\Software\keil\ARM\ARMCC\include\stdlib.h)(0x55DB2B78)
+I (.\FreeRTOS\include\FreeRTOS.h)(0x573F3A16)
+I (D:\Software\keil\ARM\ARMCC\include\stddef.h)(0x55DB2B7E)
+I (D:\Software\keil\ARM\ARMCC\include\stdint.h)(0x55DB2B80)
+I (.\FreeRTOS\include\FreeRTOSConfig.h)(0x5A2BC8DB)
+I (.\FreeRTOS\include\projdefs.h)(0x573F3A16)
+I (.\FreeRTOS\include\portable.h)(0x573F3A16)
+I (.\FreeRTOS\include\deprecated_definitions.h)(0x573F3A16)
+I (.\FreeRTOS\portable\RVDS\ARM_CM0\portmacro.h)(0x573F3A17)
+I (.\FreeRTOS\include\mpu_wrappers.h)(0x573F3A16)
+I (.\FreeRTOS\include\task.h)(0x573F3A16)
+I (.\FreeRTOS\include\list.h)(0x573F3A16)
+I (.\FreeRTOS\include\timers.h)(0x573F3A16)
+I (.\FreeRTOS\include\event_groups.h)(0x573F3A16)
+F (.\FreeRTOS\list.c)(0x573F3A16)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O2 --apcs=interwork -I..\..\..\..\src\projects\ke06\FreeRTOS_KE06 -I..\..\..\..\src\common -I..\..\..\..\src\cpu -I..\..\..\..\src\cpu\headers -I..\..\..\..\src\drivers\uart -I..\..\..\..\src\drivers\acmp -I..\..\..\..\src\platforms -I..\.. -I..\..\..\..\src\drivers\ics -I..\..\..\..\src\drivers\rtc -I..\..\..\..\src\drivers\wdog -I..\..\..\..\src\drivers\ftm -I..\..\..\..\src\drivers\nvm -I..\..\..\..\src\drivers\sim -I..\..\..\..\src\drivers\spi -I..\..\..\..\src\drivers\kbi -I..\..\..\..\src\drivers\gpio -I..\..\..\..\src\drivers\crc -I..\..\..\..\src\drivers\bme -I..\..\..\..\src\drivers\iic -I..\..\..\..\src\drivers\pit -I..\..\..\..\src\drivers\PMC -I..\..\..\..\src\drivers\adc -I..\..\..\..\src\drivers\pwt -I..\..\..\..\src\drivers\bitband -I.\FreeRTOS\include -I.\FreeRTOS\portable\RVDS\ARM_CM0-I C:\Users\huangjidong\Desktop\FreeRTOS_KE06\kexx_drv_lib\build\keil\ke06\FreeRTOS_KE06\RTE-I D:\Software\keil\Keil\Kinetis_KExx_DFP\1.7.0\Device\Include-I D:\Software\keil\ARM\CMSIS\Include-D__UVISION_VERSION="517" -DMKE06Z128xxx4 -DKEIL -DFRDM_KE06 -DCPU_KE06 -DCMSIS-o .\output\list.o --omf_browse .\output\list.crf --depend .\output\list.d)
+I (D:\Software\keil\ARM\ARMCC\include\stdlib.h)(0x55DB2B78)
+I (.\FreeRTOS\include\FreeRTOS.h)(0x573F3A16)
+I (D:\Software\keil\ARM\ARMCC\include\stddef.h)(0x55DB2B7E)
+I (D:\Software\keil\ARM\ARMCC\include\stdint.h)(0x55DB2B80)
+I (.\FreeRTOS\include\FreeRTOSConfig.h)(0x5A2BC8DB)
+I (.\FreeRTOS\include\projdefs.h)(0x573F3A16)
+I (.\FreeRTOS\include\portable.h)(0x573F3A16)
+I (.\FreeRTOS\include\deprecated_definitions.h)(0x573F3A16)
+I (.\FreeRTOS\portable\RVDS\ARM_CM0\portmacro.h)(0x573F3A17)
+I (.\FreeRTOS\include\mpu_wrappers.h)(0x573F3A16)
+I (.\FreeRTOS\include\list.h)(0x573F3A16)
+F (.\FreeRTOS\queue.c)(0x573F3A17)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O2 --apcs=interwork -I..\..\..\..\src\projects\ke06\FreeRTOS_KE06 -I..\..\..\..\src\common -I..\..\..\..\src\cpu -I..\..\..\..\src\cpu\headers -I..\..\..\..\src\drivers\uart -I..\..\..\..\src\drivers\acmp -I..\..\..\..\src\platforms -I..\.. -I..\..\..\..\src\drivers\ics -I..\..\..\..\src\drivers\rtc -I..\..\..\..\src\drivers\wdog -I..\..\..\..\src\drivers\ftm -I..\..\..\..\src\drivers\nvm -I..\..\..\..\src\drivers\sim -I..\..\..\..\src\drivers\spi -I..\..\..\..\src\drivers\kbi -I..\..\..\..\src\drivers\gpio -I..\..\..\..\src\drivers\crc -I..\..\..\..\src\drivers\bme -I..\..\..\..\src\drivers\iic -I..\..\..\..\src\drivers\pit -I..\..\..\..\src\drivers\PMC -I..\..\..\..\src\drivers\adc -I..\..\..\..\src\drivers\pwt -I..\..\..\..\src\drivers\bitband -I.\FreeRTOS\include -I.\FreeRTOS\portable\RVDS\ARM_CM0-I C:\Users\huangjidong\Desktop\FreeRTOS_KE06\kexx_drv_lib\build\keil\ke06\FreeRTOS_KE06\RTE-I D:\Software\keil\Keil\Kinetis_KExx_DFP\1.7.0\Device\Include-I D:\Software\keil\ARM\CMSIS\Include-D__UVISION_VERSION="517" -DMKE06Z128xxx4 -DKEIL -DFRDM_KE06 -DCPU_KE06 -DCMSIS-o .\output\queue.o --omf_browse .\output\queue.crf --depend .\output\queue.d)
+I (D:\Software\keil\ARM\ARMCC\include\stdlib.h)(0x55DB2B78)
+I (D:\Software\keil\ARM\ARMCC\include\string.h)(0x55DB2B78)
+I (.\FreeRTOS\include\FreeRTOS.h)(0x573F3A16)
+I (D:\Software\keil\ARM\ARMCC\include\stddef.h)(0x55DB2B7E)
+I (D:\Software\keil\ARM\ARMCC\include\stdint.h)(0x55DB2B80)
+I (.\FreeRTOS\include\FreeRTOSConfig.h)(0x5A2BC8DB)
+I (.\FreeRTOS\include\projdefs.h)(0x573F3A16)
+I (.\FreeRTOS\include\portable.h)(0x573F3A16)
+I (.\FreeRTOS\include\deprecated_definitions.h)(0x573F3A16)
+I (.\FreeRTOS\portable\RVDS\ARM_CM0\portmacro.h)(0x573F3A17)
+I (.\FreeRTOS\include\mpu_wrappers.h)(0x573F3A16)
+I (.\FreeRTOS\include\task.h)(0x573F3A16)
+I (.\FreeRTOS\include\list.h)(0x573F3A16)
+I (.\FreeRTOS\include\queue.h)(0x573F3A16)
+F (.\FreeRTOS\tasks.c)(0x573F3A17)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O2 --apcs=interwork -I..\..\..\..\src\projects\ke06\FreeRTOS_KE06 -I..\..\..\..\src\common -I..\..\..\..\src\cpu -I..\..\..\..\src\cpu\headers -I..\..\..\..\src\drivers\uart -I..\..\..\..\src\drivers\acmp -I..\..\..\..\src\platforms -I..\.. -I..\..\..\..\src\drivers\ics -I..\..\..\..\src\drivers\rtc -I..\..\..\..\src\drivers\wdog -I..\..\..\..\src\drivers\ftm -I..\..\..\..\src\drivers\nvm -I..\..\..\..\src\drivers\sim -I..\..\..\..\src\drivers\spi -I..\..\..\..\src\drivers\kbi -I..\..\..\..\src\drivers\gpio -I..\..\..\..\src\drivers\crc -I..\..\..\..\src\drivers\bme -I..\..\..\..\src\drivers\iic -I..\..\..\..\src\drivers\pit -I..\..\..\..\src\drivers\PMC -I..\..\..\..\src\drivers\adc -I..\..\..\..\src\drivers\pwt -I..\..\..\..\src\drivers\bitband -I.\FreeRTOS\include -I.\FreeRTOS\portable\RVDS\ARM_CM0-I C:\Users\huangjidong\Desktop\FreeRTOS_KE06\kexx_drv_lib\build\keil\ke06\FreeRTOS_KE06\RTE-I D:\Software\keil\Keil\Kinetis_KExx_DFP\1.7.0\Device\Include-I D:\Software\keil\ARM\CMSIS\Include-D__UVISION_VERSION="517" -DMKE06Z128xxx4 -DKEIL -DFRDM_KE06 -DCPU_KE06 -DCMSIS-o .\output\tasks.o --omf_browse .\output\tasks.crf --depend .\output\tasks.d)
+I (D:\Software\keil\ARM\ARMCC\include\stdlib.h)(0x55DB2B78)
+I (D:\Software\keil\ARM\ARMCC\include\string.h)(0x55DB2B78)
+I (.\FreeRTOS\include\FreeRTOS.h)(0x573F3A16)
+I (D:\Software\keil\ARM\ARMCC\include\stddef.h)(0x55DB2B7E)
+I (D:\Software\keil\ARM\ARMCC\include\stdint.h)(0x55DB2B80)
+I (.\FreeRTOS\include\FreeRTOSConfig.h)(0x5A2BC8DB)
+I (.\FreeRTOS\include\projdefs.h)(0x573F3A16)
+I (.\FreeRTOS\include\portable.h)(0x573F3A16)
+I (.\FreeRTOS\include\deprecated_definitions.h)(0x573F3A16)
+I (.\FreeRTOS\portable\RVDS\ARM_CM0\portmacro.h)(0x573F3A17)
+I (.\FreeRTOS\include\mpu_wrappers.h)(0x573F3A16)
+I (.\FreeRTOS\include\task.h)(0x573F3A16)
+I (.\FreeRTOS\include\list.h)(0x573F3A16)
+I (.\FreeRTOS\include\timers.h)(0x573F3A16)
+I (.\FreeRTOS\include\StackMacros.h)(0x573F3A16)
+F (.\FreeRTOS\timers.c)(0x573F3A17)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O2 --apcs=interwork -I..\..\..\..\src\projects\ke06\FreeRTOS_KE06 -I..\..\..\..\src\common -I..\..\..\..\src\cpu -I..\..\..\..\src\cpu\headers -I..\..\..\..\src\drivers\uart -I..\..\..\..\src\drivers\acmp -I..\..\..\..\src\platforms -I..\.. -I..\..\..\..\src\drivers\ics -I..\..\..\..\src\drivers\rtc -I..\..\..\..\src\drivers\wdog -I..\..\..\..\src\drivers\ftm -I..\..\..\..\src\drivers\nvm -I..\..\..\..\src\drivers\sim -I..\..\..\..\src\drivers\spi -I..\..\..\..\src\drivers\kbi -I..\..\..\..\src\drivers\gpio -I..\..\..\..\src\drivers\crc -I..\..\..\..\src\drivers\bme -I..\..\..\..\src\drivers\iic -I..\..\..\..\src\drivers\pit -I..\..\..\..\src\drivers\PMC -I..\..\..\..\src\drivers\adc -I..\..\..\..\src\drivers\pwt -I..\..\..\..\src\drivers\bitband -I.\FreeRTOS\include -I.\FreeRTOS\portable\RVDS\ARM_CM0-I C:\Users\huangjidong\Desktop\FreeRTOS_KE06\kexx_drv_lib\build\keil\ke06\FreeRTOS_KE06\RTE-I D:\Software\keil\Keil\Kinetis_KExx_DFP\1.7.0\Device\Include-I D:\Software\keil\ARM\CMSIS\Include-D__UVISION_VERSION="517" -DMKE06Z128xxx4 -DKEIL -DFRDM_KE06 -DCPU_KE06 -DCMSIS-o .\output\timers.o --omf_browse .\output\timers.crf --depend .\output\timers.d)
+I (D:\Software\keil\ARM\ARMCC\include\stdlib.h)(0x55DB2B78)
+I (.\FreeRTOS\include\FreeRTOS.h)(0x573F3A16)
+I (D:\Software\keil\ARM\ARMCC\include\stddef.h)(0x55DB2B7E)
+I (D:\Software\keil\ARM\ARMCC\include\stdint.h)(0x55DB2B80)
+I (.\FreeRTOS\include\FreeRTOSConfig.h)(0x5A2BC8DB)
+I (.\FreeRTOS\include\projdefs.h)(0x573F3A16)
+I (.\FreeRTOS\include\portable.h)(0x573F3A16)
+I (.\FreeRTOS\include\deprecated_definitions.h)(0x573F3A16)
+I (.\FreeRTOS\portable\RVDS\ARM_CM0\portmacro.h)(0x573F3A17)
+I (.\FreeRTOS\include\mpu_wrappers.h)(0x573F3A16)
+I (.\FreeRTOS\include\task.h)(0x573F3A16)
+I (.\FreeRTOS\include\list.h)(0x573F3A16)
+I (.\FreeRTOS\include\queue.h)(0x573F3A16)
+I (.\FreeRTOS\include\timers.h)(0x573F3A16)
+F (.\FreeRTOS\portable\RVDS\ARM_CM0\port.c)(0x573F3A17)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O2 --apcs=interwork -I..\..\..\..\src\projects\ke06\FreeRTOS_KE06 -I..\..\..\..\src\common -I..\..\..\..\src\cpu -I..\..\..\..\src\cpu\headers -I..\..\..\..\src\drivers\uart -I..\..\..\..\src\drivers\acmp -I..\..\..\..\src\platforms -I..\.. -I..\..\..\..\src\drivers\ics -I..\..\..\..\src\drivers\rtc -I..\..\..\..\src\drivers\wdog -I..\..\..\..\src\drivers\ftm -I..\..\..\..\src\drivers\nvm -I..\..\..\..\src\drivers\sim -I..\..\..\..\src\drivers\spi -I..\..\..\..\src\drivers\kbi -I..\..\..\..\src\drivers\gpio -I..\..\..\..\src\drivers\crc -I..\..\..\..\src\drivers\bme -I..\..\..\..\src\drivers\iic -I..\..\..\..\src\drivers\pit -I..\..\..\..\src\drivers\PMC -I..\..\..\..\src\drivers\adc -I..\..\..\..\src\drivers\pwt -I..\..\..\..\src\drivers\bitband -I.\FreeRTOS\include -I.\FreeRTOS\portable\RVDS\ARM_CM0-I C:\Users\huangjidong\Desktop\FreeRTOS_KE06\kexx_drv_lib\build\keil\ke06\FreeRTOS_KE06\RTE-I D:\Software\keil\Keil\Kinetis_KExx_DFP\1.7.0\Device\Include-I D:\Software\keil\ARM\CMSIS\Include-D__UVISION_VERSION="517" -DMKE06Z128xxx4 -DKEIL -DFRDM_KE06 -DCPU_KE06 -DCMSIS-o .\output\port.o --omf_browse .\output\port.crf --depend .\output\port.d)
+I (.\FreeRTOS\include\FreeRTOS.h)(0x573F3A16)
+I (D:\Software\keil\ARM\ARMCC\include\stddef.h)(0x55DB2B7E)
+I (D:\Software\keil\ARM\ARMCC\include\stdint.h)(0x55DB2B80)
+I (.\FreeRTOS\include\FreeRTOSConfig.h)(0x5A2BC8DB)
+I (.\FreeRTOS\include\projdefs.h)(0x573F3A16)
+I (.\FreeRTOS\include\portable.h)(0x573F3A16)
+I (.\FreeRTOS\include\deprecated_definitions.h)(0x573F3A16)
+I (.\FreeRTOS\portable\RVDS\ARM_CM0\portmacro.h)(0x573F3A17)
+I (.\FreeRTOS\include\mpu_wrappers.h)(0x573F3A16)
+I (.\FreeRTOS\include\task.h)(0x573F3A16)
+I (.\FreeRTOS\include\list.h)(0x573F3A16)
+F (.\FreeRTOS\portable\MemMang\heap_4.c)(0x573F3A16)(-c --cpu Cortex-M0+ -D__MICROLIB -g -O2 --apcs=interwork -I..\..\..\..\src\projects\ke06\FreeRTOS_KE06 -I..\..\..\..\src\common -I..\..\..\..\src\cpu -I..\..\..\..\src\cpu\headers -I..\..\..\..\src\drivers\uart -I..\..\..\..\src\drivers\acmp -I..\..\..\..\src\platforms -I..\.. -I..\..\..\..\src\drivers\ics -I..\..\..\..\src\drivers\rtc -I..\..\..\..\src\drivers\wdog -I..\..\..\..\src\drivers\ftm -I..\..\..\..\src\drivers\nvm -I..\..\..\..\src\drivers\sim -I..\..\..\..\src\drivers\spi -I..\..\..\..\src\drivers\kbi -I..\..\..\..\src\drivers\gpio -I..\..\..\..\src\drivers\crc -I..\..\..\..\src\drivers\bme -I..\..\..\..\src\drivers\iic -I..\..\..\..\src\drivers\pit -I..\..\..\..\src\drivers\PMC -I..\..\..\..\src\drivers\adc -I..\..\..\..\src\drivers\pwt -I..\..\..\..\src\drivers\bitband -I.\FreeRTOS\include -I.\FreeRTOS\portable\RVDS\ARM_CM0-I C:\Users\huangjidong\Desktop\FreeRTOS_KE06\kexx_drv_lib\build\keil\ke06\FreeRTOS_KE06\RTE-I D:\Software\keil\Keil\Kinetis_KExx_DFP\1.7.0\Device\Include-I D:\Software\keil\ARM\CMSIS\Include-D__UVISION_VERSION="517" -DMKE06Z128xxx4 -DKEIL -DFRDM_KE06 -DCPU_KE06 -DCMSIS-o .\output\heap_4.o --omf_browse .\output\heap_4.crf --depend .\output\heap_4.d)
+I (D:\Software\keil\ARM\ARMCC\include\stdlib.h)(0x55DB2B78)
+I (.\FreeRTOS\include\FreeRTOS.h)(0x573F3A16)
+I (D:\Software\keil\ARM\ARMCC\include\stddef.h)(0x55DB2B7E)
+I (D:\Software\keil\ARM\ARMCC\include\stdint.h)(0x55DB2B80)
+I (.\FreeRTOS\include\FreeRTOSConfig.h)(0x5A2BC8DB)
+I (.\FreeRTOS\include\projdefs.h)(0x573F3A16)
+I (.\FreeRTOS\include\portable.h)(0x573F3A16)
+I (.\FreeRTOS\include\deprecated_definitions.h)(0x573F3A16)
+I (.\FreeRTOS\portable\RVDS\ARM_CM0\portmacro.h)(0x573F3A17)
+I (.\FreeRTOS\include\mpu_wrappers.h)(0x573F3A16)
+I (.\FreeRTOS\include\task.h)(0x573F3A16)
+I (.\FreeRTOS\include\list.h)(0x573F3A16)

@@ -1,0 +1,36 @@
+学习网站：
+https://docs.mbed.com/docs/ble-hid/en/latest/HID/
+
+
+
+BLE HID涉及到的USBHID协议章节：
+5.2, 5.3, 5.4 Report Descriptor (page 14).
+
+6.2.2 Report Descriptor (page 23).
+
+6.2.2.4 Main Items (page 28).
+
+6.2.2.5 Input/Output/Feature Items (page 30).
+
+6.2.2.6 Collections (page 33).
+
+6.2.2.7 Global Items (page 35).
+
+6.2.2.8 Local Items (page 40).
+
+Appendix B: Keyboard and Mouse boot descriptors (page 59).
+Standardized report descriptors that are implemented by the BIOS without having
+to parse a descriptor. You’ll note that this descriptor closely follows the examples above.
+
+Appendix C: Implementation requirements for a USB keyboard (page 62).
+
+Appendix D: Other examples of report descriptors (page 64).
+
+Appendix H: Glossary (page 79).
+
+The USBHID UsageTables is annex A of the previous document, and contains all
+standardized usage:
+
+Table 1 in section 3 is a summary of the available Usage Pages.
+
+3.4 Usage Types shows how to use Input/Output/Feature items.

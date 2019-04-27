@@ -1,0 +1,16 @@
+--cpu Cortex-M0+
+".\out\debuginflash\system_lpc8xx.o"
+".\out\debuginflash\startup_lpc82x.o"
+".\out\debuginflash\main.o"
+".\out\debuginflash\croutine.o"
+".\out\debuginflash\event_groups.o"
+".\out\debuginflash\list.o"
+".\out\debuginflash\queue.o"
+".\out\debuginflash\tasks.o"
+".\out\debuginflash\timers.o"
+".\out\debuginflash\port.o"
+".\out\debuginflash\heap_4.o"
+--strict --scatter ".\Out\DebugInFlash\LPC8xx.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\LPC8xx.map" -o .\Out\DebugInFlash\LPC8xx.axf

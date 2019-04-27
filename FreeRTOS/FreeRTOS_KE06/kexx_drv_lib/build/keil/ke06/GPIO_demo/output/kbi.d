@@ -1,0 +1,16 @@
+.\output\kbi.o: ..\..\..\..\src\drivers\kbi\kbi.c
+.\output\kbi.o: ..\..\..\..\src\common\common.h
+.\output\kbi.o: ..\..\..\..\src\cpu\arm_cm0.h
+.\output\kbi.o: ..\..\..\..\src\platforms\ke06_config.h
+.\output\kbi.o: D:\Software\keil\ARM\ARMCC\Bin\..\include\stdint.h
+.\output\kbi.o: ..\..\..\..\src\cpu\headers\MKE06Z4.h
+.\output\kbi.o: ..\..\..\..\src\cpu\headers\core_cm0plus.h
+.\output\kbi.o: ..\..\..\..\src\cpu\headers\core_cmInstr.h
+.\output\kbi.o: ..\..\..\..\src\cpu\headers\cmsis_armcc.h
+.\output\kbi.o: ..\..\..\..\src\cpu\headers\core_cmFunc.h
+.\output\kbi.o: ..\..\..\..\src\cpu\system_MKE06Z4.h
+.\output\kbi.o: ..\..\..\..\src\common\assert.h
+.\output\kbi.o: ..\..\..\..\src\common\io.h
+.\output\kbi.o: ..\..\..\..\src\common\startup.h
+.\output\kbi.o: ..\..\..\..\src\common\stdlib.h
+.\output\kbi.o: ..\..\..\..\src\drivers\kbi\kbi.h

@@ -1,0 +1,19 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build hello world",
+            "type": "shell",
+            "command": "gcc",
+            "args": [
+                //头文件路径
+                "-I", "${workspaceFolder}",
+                //调试信息
+                "-g",
+                "-v", 
+                //源代码
+                "${workspaceFolder}/*.c", 
+            ]
+        }
+    ]
+}

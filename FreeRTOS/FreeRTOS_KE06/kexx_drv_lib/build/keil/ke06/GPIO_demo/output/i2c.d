@@ -1,0 +1,16 @@
+.\output\i2c.o: ..\..\..\..\src\drivers\iic\i2c.c
+.\output\i2c.o: ..\..\..\..\src\common\common.h
+.\output\i2c.o: ..\..\..\..\src\cpu\arm_cm0.h
+.\output\i2c.o: ..\..\..\..\src\platforms\ke06_config.h
+.\output\i2c.o: D:\Software\keil\ARM\ARMCC\Bin\..\include\stdint.h
+.\output\i2c.o: ..\..\..\..\src\cpu\headers\MKE06Z4.h
+.\output\i2c.o: ..\..\..\..\src\cpu\headers\core_cm0plus.h
+.\output\i2c.o: ..\..\..\..\src\cpu\headers\core_cmInstr.h
+.\output\i2c.o: ..\..\..\..\src\cpu\headers\cmsis_armcc.h
+.\output\i2c.o: ..\..\..\..\src\cpu\headers\core_cmFunc.h
+.\output\i2c.o: ..\..\..\..\src\cpu\system_MKE06Z4.h
+.\output\i2c.o: ..\..\..\..\src\common\assert.h
+.\output\i2c.o: ..\..\..\..\src\common\io.h
+.\output\i2c.o: ..\..\..\..\src\common\startup.h
+.\output\i2c.o: ..\..\..\..\src\common\stdlib.h
+.\output\i2c.o: ..\..\..\..\src\drivers\iic\i2c.h

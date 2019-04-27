@@ -1,0 +1,16 @@
+.\output\sim.o: ..\..\..\..\src\drivers\sim\sim.c
+.\output\sim.o: ..\..\..\..\src\common\common.h
+.\output\sim.o: ..\..\..\..\src\cpu\arm_cm0.h
+.\output\sim.o: ..\..\..\..\src\platforms\ke06_config.h
+.\output\sim.o: D:\Software\keil\ARM\ARMCC\Bin\..\include\stdint.h
+.\output\sim.o: ..\..\..\..\src\cpu\headers\MKE06Z4.h
+.\output\sim.o: ..\..\..\..\src\cpu\headers\core_cm0plus.h
+.\output\sim.o: ..\..\..\..\src\cpu\headers\core_cmInstr.h
+.\output\sim.o: ..\..\..\..\src\cpu\headers\cmsis_armcc.h
+.\output\sim.o: ..\..\..\..\src\cpu\headers\core_cmFunc.h
+.\output\sim.o: ..\..\..\..\src\cpu\system_MKE06Z4.h
+.\output\sim.o: ..\..\..\..\src\common\assert.h
+.\output\sim.o: ..\..\..\..\src\common\io.h
+.\output\sim.o: ..\..\..\..\src\common\startup.h
+.\output\sim.o: ..\..\..\..\src\common\stdlib.h
+.\output\sim.o: ..\..\..\..\src\drivers\sim\sim.h

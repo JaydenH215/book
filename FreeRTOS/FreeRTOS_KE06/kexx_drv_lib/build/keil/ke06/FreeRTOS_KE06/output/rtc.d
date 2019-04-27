@@ -1,0 +1,16 @@
+.\output\rtc.o: ..\..\..\..\src\drivers\rtc\rtc.c
+.\output\rtc.o: ..\..\..\..\src\common\common.h
+.\output\rtc.o: ..\..\..\..\src\cpu\arm_cm0.h
+.\output\rtc.o: ..\..\..\..\src\platforms\ke06_config.h
+.\output\rtc.o: D:\Software\keil\ARM\ARMCC\Bin\..\include\stdint.h
+.\output\rtc.o: ..\..\..\..\src\cpu\headers\MKE06Z4.h
+.\output\rtc.o: ..\..\..\..\src\cpu\headers\core_cm0plus.h
+.\output\rtc.o: ..\..\..\..\src\cpu\headers\core_cmInstr.h
+.\output\rtc.o: ..\..\..\..\src\cpu\headers\cmsis_armcc.h
+.\output\rtc.o: ..\..\..\..\src\cpu\headers\core_cmFunc.h
+.\output\rtc.o: ..\..\..\..\src\cpu\system_MKE06Z4.h
+.\output\rtc.o: ..\..\..\..\src\common\assert.h
+.\output\rtc.o: ..\..\..\..\src\common\io.h
+.\output\rtc.o: ..\..\..\..\src\common\startup.h
+.\output\rtc.o: ..\..\..\..\src\common\stdlib.h
+.\output\rtc.o: ..\..\..\..\src\drivers\rtc\rtc.h

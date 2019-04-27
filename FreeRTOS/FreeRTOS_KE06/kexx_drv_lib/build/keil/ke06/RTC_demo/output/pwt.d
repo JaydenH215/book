@@ -1,0 +1,16 @@
+.\output\pwt.o: ..\..\..\..\src\drivers\pwt\pwt.c
+.\output\pwt.o: ..\..\..\..\src\common\common.h
+.\output\pwt.o: ..\..\..\..\src\cpu\arm_cm0.h
+.\output\pwt.o: ..\..\..\..\src\platforms\ke06_config.h
+.\output\pwt.o: D:\Software\keil\ARM\ARMCC\Bin\..\include\stdint.h
+.\output\pwt.o: ..\..\..\..\src\cpu\headers\MKE06Z4.h
+.\output\pwt.o: ..\..\..\..\src\cpu\headers\core_cm0plus.h
+.\output\pwt.o: ..\..\..\..\src\cpu\headers\core_cmInstr.h
+.\output\pwt.o: ..\..\..\..\src\cpu\headers\cmsis_armcc.h
+.\output\pwt.o: ..\..\..\..\src\cpu\headers\core_cmFunc.h
+.\output\pwt.o: ..\..\..\..\src\cpu\system_MKE06Z4.h
+.\output\pwt.o: ..\..\..\..\src\common\assert.h
+.\output\pwt.o: ..\..\..\..\src\common\io.h
+.\output\pwt.o: ..\..\..\..\src\common\startup.h
+.\output\pwt.o: ..\..\..\..\src\common\stdlib.h
+.\output\pwt.o: ..\..\..\..\src\drivers\pwt\pwt.h

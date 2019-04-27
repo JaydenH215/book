@@ -1,0 +1,15 @@
+.\output\stdlib.o: ..\..\..\..\src\common\stdlib.c
+.\output\stdlib.o: ..\..\..\..\src\common\common.h
+.\output\stdlib.o: ..\..\..\..\src\cpu\arm_cm0.h
+.\output\stdlib.o: ..\..\..\..\src\platforms\ke06_config.h
+.\output\stdlib.o: D:\Software\keil\ARM\ARMCC\Bin\..\include\stdint.h
+.\output\stdlib.o: ..\..\..\..\src\cpu\headers\MKE06Z4.h
+.\output\stdlib.o: ..\..\..\..\src\cpu\headers\core_cm0plus.h
+.\output\stdlib.o: ..\..\..\..\src\cpu\headers\core_cmInstr.h
+.\output\stdlib.o: ..\..\..\..\src\cpu\headers\cmsis_armcc.h
+.\output\stdlib.o: ..\..\..\..\src\cpu\headers\core_cmFunc.h
+.\output\stdlib.o: ..\..\..\..\src\cpu\system_MKE06Z4.h
+.\output\stdlib.o: ..\..\..\..\src\common\assert.h
+.\output\stdlib.o: ..\..\..\..\src\common\io.h
+.\output\stdlib.o: ..\..\..\..\src\common\startup.h
+.\output\stdlib.o: ..\..\..\..\src\common\stdlib.h

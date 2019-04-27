@@ -1,0 +1,130 @@
+Dependencies for Project 'UARTPolling', Target 'DebugInFlash': (DO NOT MODIFY !)
+F (.\LPC8xx\system_LPC8xx.c)(0x5440C23B)(-c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I.\CM0+ -I.\FreeRTOS\include -I.\FreeRTOS\portable\RVDS\ARM_CM0 -I.\LPC8xx -I.\USER_CODE-I C:\Users\huangjidong\Desktop\ÒÆÖ²M0+¡ª¡ªfreertos\RTE-I D:\Software\keil\ARM\CMSIS\4.5.0\CMSIS\Include-I D:\Software\keil\Keil\LPC800_DFP\1.4.0\Device\Include-D__UVISION_VERSION="517" -D_RTE_ -DLPC824M201JHI33 -DCHIP_LPC82X-o .\out\debuginflash\system_lpc8xx.o --omf_browse .\out\debuginflash\system_lpc8xx.crf --depend .\out\debuginflash\system_lpc8xx.d)
+I (D:\Software\keil\ARM\ARMCC\include\stdint.h)(0x55DB2B80)
+I (LPC8xx\LPC8xx.h)(0x5445F80D)
+I (.\CM0+\core_cm0plus.h)(0x50E7EEEC)
+I (D:\Software\keil\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x5625A350)
+I (D:\Software\keil\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x5625A350)
+I (D:\Software\keil\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x5625A350)
+I (LPC8xx\system_LPC8xx.h)(0x50725E42)
+F (.\LPC8xx\startup\startup_lpc82x.s)(0x58F46D63)(--cpu Cortex-M0+ -g --apcs=interwork -I C:\Users\huangjidong\Desktop\ÒÆÖ²M0+¡ª¡ªfreertos\RTE-I D:\Software\keil\ARM\CMSIS\4.5.0\CMSIS\Include-I D:\Software\keil\Keil\LPC800_DFP\1.4.0\Device\Include--pd "__UVISION_VERSION SETA 517" --pd "_RTE_ SETA 1" --pd "LPC824M201JHI33 SETA 1"--list .\startup_lpc82x.lst --xref -o .\out\debuginflash\startup_lpc82x.o --depend .\out\debuginflash\startup_lpc82x.d)
+F (.\USER_CODE\main.c)(0x58FD589D)(-c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I.\CM0+ -I.\FreeRTOS\include -I.\FreeRTOS\portable\RVDS\ARM_CM0 -I.\LPC8xx -I.\USER_CODE-I C:\Users\huangjidong\Desktop\ÒÆÖ²M0+¡ª¡ªfreertos\RTE-I D:\Software\keil\ARM\CMSIS\4.5.0\CMSIS\Include-I D:\Software\keil\Keil\LPC800_DFP\1.4.0\Device\Include-D__UVISION_VERSION="517" -D_RTE_ -DLPC824M201JHI33 -DCHIP_LPC82X-o .\out\debuginflash\main.o --omf_browse .\out\debuginflash\main.crf --depend .\out\debuginflash\main.d)
+I (.\LPC8xx\LPC8xx.h)(0x5445F80D)
+I (.\CM0+\core_cm0plus.h)(0x50E7EEEC)
+I (D:\Software\keil\ARM\ARMCC\include\stdint.h)(0x55DB2B80)
+I (D:\Software\keil\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x5625A350)
+I (D:\Software\keil\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x5625A350)
+I (D:\Software\keil\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x5625A350)
+I (.\LPC8xx\system_LPC8xx.h)(0x50725E42)
+F (.\FreeRTOS\include\FreeRTOSConfig.h)(0x58F4696C)()
+F (.\FreeRTOS\croutine.c)(0x573F3A16)(-c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I.\CM0+ -I.\FreeRTOS\include -I.\FreeRTOS\portable\RVDS\ARM_CM0 -I.\LPC8xx -I.\USER_CODE-I C:\Users\huangjidong\Desktop\ÒÆÖ²M0+¡ª¡ªfreertos\RTE-I D:\Software\keil\ARM\CMSIS\4.5.0\CMSIS\Include-I D:\Software\keil\Keil\LPC800_DFP\1.4.0\Device\Include-D__UVISION_VERSION="517" -D_RTE_ -DLPC824M201JHI33 -DCHIP_LPC82X-o .\out\debuginflash\croutine.o --omf_browse .\out\debuginflash\croutine.crf --depend .\out\debuginflash\croutine.d)
+I (.\FreeRTOS\include\FreeRTOS.h)(0x573F3A16)
+I (D:\Software\keil\ARM\ARMCC\include\stddef.h)(0x55DB2B7E)
+I (D:\Software\keil\ARM\ARMCC\include\stdint.h)(0x55DB2B80)
+I (.\FreeRTOS\include\FreeRTOSConfig.h)(0x58F4696C)
+I (.\FreeRTOS\include\projdefs.h)(0x573F3A16)
+I (.\FreeRTOS\include\portable.h)(0x573F3A16)
+I (.\FreeRTOS\include\deprecated_definitions.h)(0x573F3A16)
+I (.\FreeRTOS\portable\RVDS\ARM_CM0\portmacro.h)(0x573F3A17)
+I (.\FreeRTOS\include\mpu_wrappers.h)(0x573F3A16)
+I (.\FreeRTOS\include\task.h)(0x573F3A16)
+I (.\FreeRTOS\include\list.h)(0x573F3A16)
+I (.\FreeRTOS\include\croutine.h)(0x573F3A16)
+F (.\FreeRTOS\event_groups.c)(0x573F3A16)(-c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I.\CM0+ -I.\FreeRTOS\include -I.\FreeRTOS\portable\RVDS\ARM_CM0 -I.\LPC8xx -I.\USER_CODE-I C:\Users\huangjidong\Desktop\ÒÆÖ²M0+¡ª¡ªfreertos\RTE-I D:\Software\keil\ARM\CMSIS\4.5.0\CMSIS\Include-I D:\Software\keil\Keil\LPC800_DFP\1.4.0\Device\Include-D__UVISION_VERSION="517" -D_RTE_ -DLPC824M201JHI33 -DCHIP_LPC82X-o .\out\debuginflash\event_groups.o --omf_browse .\out\debuginflash\event_groups.crf --depend .\out\debuginflash\event_groups.d)
+I (D:\Software\keil\ARM\ARMCC\include\stdlib.h)(0x55DB2B78)
+I (.\FreeRTOS\include\FreeRTOS.h)(0x573F3A16)
+I (D:\Software\keil\ARM\ARMCC\include\stddef.h)(0x55DB2B7E)
+I (D:\Software\keil\ARM\ARMCC\include\stdint.h)(0x55DB2B80)
+I (.\FreeRTOS\include\FreeRTOSConfig.h)(0x58F4696C)
+I (.\FreeRTOS\include\projdefs.h)(0x573F3A16)
+I (.\FreeRTOS\include\portable.h)(0x573F3A16)
+I (.\FreeRTOS\include\deprecated_definitions.h)(0x573F3A16)
+I (.\FreeRTOS\portable\RVDS\ARM_CM0\portmacro.h)(0x573F3A17)
+I (.\FreeRTOS\include\mpu_wrappers.h)(0x573F3A16)
+I (.\FreeRTOS\include\task.h)(0x573F3A16)
+I (.\FreeRTOS\include\list.h)(0x573F3A16)
+I (.\FreeRTOS\include\timers.h)(0x573F3A16)
+I (.\FreeRTOS\include\event_groups.h)(0x573F3A16)
+F (.\FreeRTOS\list.c)(0x573F3A16)(-c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I.\CM0+ -I.\FreeRTOS\include -I.\FreeRTOS\portable\RVDS\ARM_CM0 -I.\LPC8xx -I.\USER_CODE-I C:\Users\huangjidong\Desktop\ÒÆÖ²M0+¡ª¡ªfreertos\RTE-I D:\Software\keil\ARM\CMSIS\4.5.0\CMSIS\Include-I D:\Software\keil\Keil\LPC800_DFP\1.4.0\Device\Include-D__UVISION_VERSION="517" -D_RTE_ -DLPC824M201JHI33 -DCHIP_LPC82X-o .\out\debuginflash\list.o --omf_browse .\out\debuginflash\list.crf --depend .\out\debuginflash\list.d)
+I (D:\Software\keil\ARM\ARMCC\include\stdlib.h)(0x55DB2B78)
+I (.\FreeRTOS\include\FreeRTOS.h)(0x573F3A16)
+I (D:\Software\keil\ARM\ARMCC\include\stddef.h)(0x55DB2B7E)
+I (D:\Software\keil\ARM\ARMCC\include\stdint.h)(0x55DB2B80)
+I (.\FreeRTOS\include\FreeRTOSConfig.h)(0x58F4696C)
+I (.\FreeRTOS\include\projdefs.h)(0x573F3A16)
+I (.\FreeRTOS\include\portable.h)(0x573F3A16)
+I (.\FreeRTOS\include\deprecated_definitions.h)(0x573F3A16)
+I (.\FreeRTOS\portable\RVDS\ARM_CM0\portmacro.h)(0x573F3A17)
+I (.\FreeRTOS\include\mpu_wrappers.h)(0x573F3A16)
+I (.\FreeRTOS\include\list.h)(0x573F3A16)
+F (.\FreeRTOS\queue.c)(0x573F3A17)(-c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I.\CM0+ -I.\FreeRTOS\include -I.\FreeRTOS\portable\RVDS\ARM_CM0 -I.\LPC8xx -I.\USER_CODE-I C:\Users\huangjidong\Desktop\ÒÆÖ²M0+¡ª¡ªfreertos\RTE-I D:\Software\keil\ARM\CMSIS\4.5.0\CMSIS\Include-I D:\Software\keil\Keil\LPC800_DFP\1.4.0\Device\Include-D__UVISION_VERSION="517" -D_RTE_ -DLPC824M201JHI33 -DCHIP_LPC82X-o .\out\debuginflash\queue.o --omf_browse .\out\debuginflash\queue.crf --depend .\out\debuginflash\queue.d)
+I (D:\Software\keil\ARM\ARMCC\include\stdlib.h)(0x55DB2B78)
+I (D:\Software\keil\ARM\ARMCC\include\string.h)(0x55DB2B78)
+I (.\FreeRTOS\include\FreeRTOS.h)(0x573F3A16)
+I (D:\Software\keil\ARM\ARMCC\include\stddef.h)(0x55DB2B7E)
+I (D:\Software\keil\ARM\ARMCC\include\stdint.h)(0x55DB2B80)
+I (.\FreeRTOS\include\FreeRTOSConfig.h)(0x58F4696C)
+I (.\FreeRTOS\include\projdefs.h)(0x573F3A16)
+I (.\FreeRTOS\include\portable.h)(0x573F3A16)
+I (.\FreeRTOS\include\deprecated_definitions.h)(0x573F3A16)
+I (.\FreeRTOS\portable\RVDS\ARM_CM0\portmacro.h)(0x573F3A17)
+I (.\FreeRTOS\include\mpu_wrappers.h)(0x573F3A16)
+I (.\FreeRTOS\include\task.h)(0x573F3A16)
+I (.\FreeRTOS\include\list.h)(0x573F3A16)
+I (.\FreeRTOS\include\queue.h)(0x573F3A16)
+F (.\FreeRTOS\tasks.c)(0x573F3A17)(-c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I.\CM0+ -I.\FreeRTOS\include -I.\FreeRTOS\portable\RVDS\ARM_CM0 -I.\LPC8xx -I.\USER_CODE-I C:\Users\huangjidong\Desktop\ÒÆÖ²M0+¡ª¡ªfreertos\RTE-I D:\Software\keil\ARM\CMSIS\4.5.0\CMSIS\Include-I D:\Software\keil\Keil\LPC800_DFP\1.4.0\Device\Include-D__UVISION_VERSION="517" -D_RTE_ -DLPC824M201JHI33 -DCHIP_LPC82X-o .\out\debuginflash\tasks.o --omf_browse .\out\debuginflash\tasks.crf --depend .\out\debuginflash\tasks.d)
+I (D:\Software\keil\ARM\ARMCC\include\stdlib.h)(0x55DB2B78)
+I (D:\Software\keil\ARM\ARMCC\include\string.h)(0x55DB2B78)
+I (.\FreeRTOS\include\FreeRTOS.h)(0x573F3A16)
+I (D:\Software\keil\ARM\ARMCC\include\stddef.h)(0x55DB2B7E)
+I (D:\Software\keil\ARM\ARMCC\include\stdint.h)(0x55DB2B80)
+I (.\FreeRTOS\include\FreeRTOSConfig.h)(0x58F4696C)
+I (.\FreeRTOS\include\projdefs.h)(0x573F3A16)
+I (.\FreeRTOS\include\portable.h)(0x573F3A16)
+I (.\FreeRTOS\include\deprecated_definitions.h)(0x573F3A16)
+I (.\FreeRTOS\portable\RVDS\ARM_CM0\portmacro.h)(0x573F3A17)
+I (.\FreeRTOS\include\mpu_wrappers.h)(0x573F3A16)
+I (.\FreeRTOS\include\task.h)(0x573F3A16)
+I (.\FreeRTOS\include\list.h)(0x573F3A16)
+I (.\FreeRTOS\include\timers.h)(0x573F3A16)
+I (.\FreeRTOS\include\StackMacros.h)(0x573F3A16)
+F (.\FreeRTOS\timers.c)(0x573F3A17)(-c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I.\CM0+ -I.\FreeRTOS\include -I.\FreeRTOS\portable\RVDS\ARM_CM0 -I.\LPC8xx -I.\USER_CODE-I C:\Users\huangjidong\Desktop\ÒÆÖ²M0+¡ª¡ªfreertos\RTE-I D:\Software\keil\ARM\CMSIS\4.5.0\CMSIS\Include-I D:\Software\keil\Keil\LPC800_DFP\1.4.0\Device\Include-D__UVISION_VERSION="517" -D_RTE_ -DLPC824M201JHI33 -DCHIP_LPC82X-o .\out\debuginflash\timers.o --omf_browse .\out\debuginflash\timers.crf --depend .\out\debuginflash\timers.d)
+I (D:\Software\keil\ARM\ARMCC\include\stdlib.h)(0x55DB2B78)
+I (.\FreeRTOS\include\FreeRTOS.h)(0x573F3A16)
+I (D:\Software\keil\ARM\ARMCC\include\stddef.h)(0x55DB2B7E)
+I (D:\Software\keil\ARM\ARMCC\include\stdint.h)(0x55DB2B80)
+I (.\FreeRTOS\include\FreeRTOSConfig.h)(0x58F4696C)
+I (.\FreeRTOS\include\projdefs.h)(0x573F3A16)
+I (.\FreeRTOS\include\portable.h)(0x573F3A16)
+I (.\FreeRTOS\include\deprecated_definitions.h)(0x573F3A16)
+I (.\FreeRTOS\portable\RVDS\ARM_CM0\portmacro.h)(0x573F3A17)
+I (.\FreeRTOS\include\mpu_wrappers.h)(0x573F3A16)
+I (.\FreeRTOS\include\task.h)(0x573F3A16)
+I (.\FreeRTOS\include\list.h)(0x573F3A16)
+I (.\FreeRTOS\include\queue.h)(0x573F3A16)
+I (.\FreeRTOS\include\timers.h)(0x573F3A16)
+F (.\FreeRTOS\portable\RVDS\ARM_CM0\port.c)(0x573F3A17)(-c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I.\CM0+ -I.\FreeRTOS\include -I.\FreeRTOS\portable\RVDS\ARM_CM0 -I.\LPC8xx -I.\USER_CODE-I C:\Users\huangjidong\Desktop\ÒÆÖ²M0+¡ª¡ªfreertos\RTE-I D:\Software\keil\ARM\CMSIS\4.5.0\CMSIS\Include-I D:\Software\keil\Keil\LPC800_DFP\1.4.0\Device\Include-D__UVISION_VERSION="517" -D_RTE_ -DLPC824M201JHI33 -DCHIP_LPC82X-o .\out\debuginflash\port.o --omf_browse .\out\debuginflash\port.crf --depend .\out\debuginflash\port.d)
+I (.\FreeRTOS\include\FreeRTOS.h)(0x573F3A16)
+I (D:\Software\keil\ARM\ARMCC\include\stddef.h)(0x55DB2B7E)
+I (D:\Software\keil\ARM\ARMCC\include\stdint.h)(0x55DB2B80)
+I (.\FreeRTOS\include\FreeRTOSConfig.h)(0x58F4696C)
+I (.\FreeRTOS\include\projdefs.h)(0x573F3A16)
+I (.\FreeRTOS\include\portable.h)(0x573F3A16)
+I (.\FreeRTOS\include\deprecated_definitions.h)(0x573F3A16)
+I (.\FreeRTOS\portable\RVDS\ARM_CM0\portmacro.h)(0x573F3A17)
+I (.\FreeRTOS\include\mpu_wrappers.h)(0x573F3A16)
+I (.\FreeRTOS\include\task.h)(0x573F3A16)
+I (.\FreeRTOS\include\list.h)(0x573F3A16)
+F (.\FreeRTOS\portable\MemMang\heap_4.c)(0x573F3A16)(-c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I.\CM0+ -I.\FreeRTOS\include -I.\FreeRTOS\portable\RVDS\ARM_CM0 -I.\LPC8xx -I.\USER_CODE-I C:\Users\huangjidong\Desktop\ÒÆÖ²M0+¡ª¡ªfreertos\RTE-I D:\Software\keil\ARM\CMSIS\4.5.0\CMSIS\Include-I D:\Software\keil\Keil\LPC800_DFP\1.4.0\Device\Include-D__UVISION_VERSION="517" -D_RTE_ -DLPC824M201JHI33 -DCHIP_LPC82X-o .\out\debuginflash\heap_4.o --omf_browse .\out\debuginflash\heap_4.crf --depend .\out\debuginflash\heap_4.d)
+I (D:\Software\keil\ARM\ARMCC\include\stdlib.h)(0x55DB2B78)
+I (.\FreeRTOS\include\FreeRTOS.h)(0x573F3A16)
+I (D:\Software\keil\ARM\ARMCC\include\stddef.h)(0x55DB2B7E)
+I (D:\Software\keil\ARM\ARMCC\include\stdint.h)(0x55DB2B80)
+I (.\FreeRTOS\include\FreeRTOSConfig.h)(0x58F4696C)
+I (.\FreeRTOS\include\projdefs.h)(0x573F3A16)
+I (.\FreeRTOS\include\portable.h)(0x573F3A16)
+I (.\FreeRTOS\include\deprecated_definitions.h)(0x573F3A16)
+I (.\FreeRTOS\portable\RVDS\ARM_CM0\portmacro.h)(0x573F3A17)
+I (.\FreeRTOS\include\mpu_wrappers.h)(0x573F3A16)
+I (.\FreeRTOS\include\task.h)(0x573F3A16)
+I (.\FreeRTOS\include\list.h)(0x573F3A16)

@@ -1,0 +1,16 @@
+.\output\ftm.o: ..\..\..\..\src\drivers\ftm\ftm.c
+.\output\ftm.o: ..\..\..\..\src\common\common.h
+.\output\ftm.o: ..\..\..\..\src\cpu\arm_cm0.h
+.\output\ftm.o: ..\..\..\..\src\platforms\ke06_config.h
+.\output\ftm.o: D:\Software\keil\ARM\ARMCC\Bin\..\include\stdint.h
+.\output\ftm.o: ..\..\..\..\src\cpu\headers\MKE06Z4.h
+.\output\ftm.o: ..\..\..\..\src\cpu\headers\core_cm0plus.h
+.\output\ftm.o: ..\..\..\..\src\cpu\headers\core_cmInstr.h
+.\output\ftm.o: ..\..\..\..\src\cpu\headers\cmsis_armcc.h
+.\output\ftm.o: ..\..\..\..\src\cpu\headers\core_cmFunc.h
+.\output\ftm.o: ..\..\..\..\src\cpu\system_MKE06Z4.h
+.\output\ftm.o: ..\..\..\..\src\common\assert.h
+.\output\ftm.o: ..\..\..\..\src\common\io.h
+.\output\ftm.o: ..\..\..\..\src\common\startup.h
+.\output\ftm.o: ..\..\..\..\src\common\stdlib.h
+.\output\ftm.o: ..\..\..\..\src\drivers\ftm\ftm.h

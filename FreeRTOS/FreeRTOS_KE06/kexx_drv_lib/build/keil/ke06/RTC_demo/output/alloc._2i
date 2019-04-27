@@ -1,0 +1,6 @@
+-c --cpu Cortex-M0+ -D__MICROLIB -g -O2 --apcs=interwork -I..\..\..\..\src\projects\ke06\RTC_demo -I..\..\..\..\src\common -I..\..\..\..\src\cpu -I..\..\..\..\src\cpu\headers -I..\..\..\..\src\drivers\uart -I..\..\..\..\src\drivers\acmp -I..\..\..\..\src\platforms -I..\.. -I..\..\..\..\src\drivers\ics -I..\..\..\..\src\drivers\rtc -I..\..\..\..\src\drivers\wdog -I..\..\..\..\src\drivers\ftm -I..\..\..\..\src\drivers\nvm -I..\..\..\..\src\drivers\sim -I..\..\..\..\src\drivers\spi -I..\..\..\..\src\drivers\kbi -I..\..\..\..\src\drivers\gpio -I..\..\..\..\src\drivers\crc -I..\..\..\..\src\drivers\bme -I..\..\..\..\src\drivers\iic -I..\..\..\..\src\drivers\pit -I..\..\..\..\src\drivers\PMC -I..\..\..\..\src\drivers\adc -I..\..\..\..\src\drivers\pwt -I..\..\..\..\src\drivers\bitband
+-I C:\Users\huangjidong\Desktop\KE06_port_RTOS\kexx_drv_lib\build\keil\ke06\RTC_demo\RTE
+-I D:\Software\keil\Keil\Kinetis_KExx_DFP\1.7.0\Device\Include
+-I D:\Software\keil\ARM\CMSIS\Include
+-D__UVISION_VERSION="517" -DMKE06Z128xxx4 -DKEIL -DFRDM_KE06 -DCPU_KE06 -DCMSIS
+-o .\output\alloc.o --omf_browse .\output\alloc.crf --depend .\output\alloc.d --feedback ".\output\RTC_demo_Flash.fed" "..\..\..\..\src\common\alloc.c"

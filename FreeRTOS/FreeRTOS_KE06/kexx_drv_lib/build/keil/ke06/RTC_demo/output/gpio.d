@@ -1,0 +1,16 @@
+.\output\gpio.o: ..\..\..\..\src\drivers\gpio\gpio.c
+.\output\gpio.o: ..\..\..\..\src\drivers\gpio\gpio.h
+.\output\gpio.o: ..\..\..\..\src\common\common.h
+.\output\gpio.o: ..\..\..\..\src\cpu\arm_cm0.h
+.\output\gpio.o: ..\..\..\..\src\platforms\ke06_config.h
+.\output\gpio.o: D:\Software\keil\ARM\ARMCC\Bin\..\include\stdint.h
+.\output\gpio.o: ..\..\..\..\src\cpu\headers\MKE06Z4.h
+.\output\gpio.o: ..\..\..\..\src\cpu\headers\core_cm0plus.h
+.\output\gpio.o: ..\..\..\..\src\cpu\headers\core_cmInstr.h
+.\output\gpio.o: ..\..\..\..\src\cpu\headers\cmsis_armcc.h
+.\output\gpio.o: ..\..\..\..\src\cpu\headers\core_cmFunc.h
+.\output\gpio.o: ..\..\..\..\src\cpu\system_MKE06Z4.h
+.\output\gpio.o: ..\..\..\..\src\common\assert.h
+.\output\gpio.o: ..\..\..\..\src\common\io.h
+.\output\gpio.o: ..\..\..\..\src\common\startup.h
+.\output\gpio.o: ..\..\..\..\src\common\stdlib.h

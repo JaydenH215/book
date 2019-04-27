@@ -1,0 +1,16 @@
+.\out\debuginflash\tasks.o: FreeRTOS\tasks.c
+.\out\debuginflash\tasks.o: D:\Software\keil\ARM\ARMCC\Bin\..\include\stdlib.h
+.\out\debuginflash\tasks.o: D:\Software\keil\ARM\ARMCC\Bin\..\include\string.h
+.\out\debuginflash\tasks.o: .\FreeRTOS\include\FreeRTOS.h
+.\out\debuginflash\tasks.o: D:\Software\keil\ARM\ARMCC\Bin\..\include\stddef.h
+.\out\debuginflash\tasks.o: D:\Software\keil\ARM\ARMCC\Bin\..\include\stdint.h
+.\out\debuginflash\tasks.o: .\FreeRTOS\include\FreeRTOSConfig.h
+.\out\debuginflash\tasks.o: .\FreeRTOS\include\projdefs.h
+.\out\debuginflash\tasks.o: .\FreeRTOS\include\portable.h
+.\out\debuginflash\tasks.o: .\FreeRTOS\include\deprecated_definitions.h
+.\out\debuginflash\tasks.o: .\FreeRTOS\portable\RVDS\ARM_CM0\portmacro.h
+.\out\debuginflash\tasks.o: .\FreeRTOS\include\mpu_wrappers.h
+.\out\debuginflash\tasks.o: .\FreeRTOS\include\task.h
+.\out\debuginflash\tasks.o: .\FreeRTOS\include\list.h
+.\out\debuginflash\tasks.o: .\FreeRTOS\include\timers.h
+.\out\debuginflash\tasks.o: .\FreeRTOS\include\StackMacros.h

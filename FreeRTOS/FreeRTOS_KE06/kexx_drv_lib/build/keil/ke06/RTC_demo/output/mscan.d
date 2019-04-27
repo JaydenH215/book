@@ -1,0 +1,16 @@
+.\output\mscan.o: ..\..\..\..\src\drivers\can\mscan.c
+.\output\mscan.o: ..\..\..\..\src\common\common.h
+.\output\mscan.o: ..\..\..\..\src\cpu\arm_cm0.h
+.\output\mscan.o: ..\..\..\..\src\platforms\ke06_config.h
+.\output\mscan.o: D:\Software\keil\ARM\ARMCC\Bin\..\include\stdint.h
+.\output\mscan.o: ..\..\..\..\src\cpu\headers\MKE06Z4.h
+.\output\mscan.o: ..\..\..\..\src\cpu\headers\core_cm0plus.h
+.\output\mscan.o: ..\..\..\..\src\cpu\headers\core_cmInstr.h
+.\output\mscan.o: ..\..\..\..\src\cpu\headers\cmsis_armcc.h
+.\output\mscan.o: ..\..\..\..\src\cpu\headers\core_cmFunc.h
+.\output\mscan.o: ..\..\..\..\src\cpu\system_MKE06Z4.h
+.\output\mscan.o: ..\..\..\..\src\common\assert.h
+.\output\mscan.o: ..\..\..\..\src\common\io.h
+.\output\mscan.o: ..\..\..\..\src\common\startup.h
+.\output\mscan.o: ..\..\..\..\src\common\stdlib.h
+.\output\mscan.o: ..\..\..\..\src\drivers\can\mscan.h

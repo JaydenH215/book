@@ -1,0 +1,16 @@
+.\output\pit.o: ..\..\..\..\src\drivers\pit\pit.c
+.\output\pit.o: ..\..\..\..\src\common\common.h
+.\output\pit.o: ..\..\..\..\src\cpu\arm_cm0.h
+.\output\pit.o: ..\..\..\..\src\platforms\ke06_config.h
+.\output\pit.o: D:\Software\keil\ARM\ARMCC\Bin\..\include\stdint.h
+.\output\pit.o: ..\..\..\..\src\cpu\headers\MKE06Z4.h
+.\output\pit.o: ..\..\..\..\src\cpu\headers\core_cm0plus.h
+.\output\pit.o: ..\..\..\..\src\cpu\headers\core_cmInstr.h
+.\output\pit.o: ..\..\..\..\src\cpu\headers\cmsis_armcc.h
+.\output\pit.o: ..\..\..\..\src\cpu\headers\core_cmFunc.h
+.\output\pit.o: ..\..\..\..\src\cpu\system_MKE06Z4.h
+.\output\pit.o: ..\..\..\..\src\common\assert.h
+.\output\pit.o: ..\..\..\..\src\common\io.h
+.\output\pit.o: ..\..\..\..\src\common\startup.h
+.\output\pit.o: ..\..\..\..\src\common\stdlib.h
+.\output\pit.o: ..\..\..\..\src\drivers\pit\pit.h

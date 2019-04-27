@@ -1,0 +1,17 @@
+.\output\wdog.o: ..\..\..\..\src\drivers\wdog\wdog.c
+.\output\wdog.o: ..\..\..\..\src\common\common.h
+.\output\wdog.o: ..\..\..\..\src\cpu\arm_cm0.h
+.\output\wdog.o: ..\..\..\..\src\platforms\ke06_config.h
+.\output\wdog.o: D:\Software\keil\ARM\ARMCC\Bin\..\include\stdint.h
+.\output\wdog.o: ..\..\..\..\src\cpu\headers\MKE06Z4.h
+.\output\wdog.o: ..\..\..\..\src\cpu\headers\core_cm0plus.h
+.\output\wdog.o: ..\..\..\..\src\cpu\headers\core_cmInstr.h
+.\output\wdog.o: ..\..\..\..\src\cpu\headers\cmsis_armcc.h
+.\output\wdog.o: ..\..\..\..\src\cpu\headers\core_cmFunc.h
+.\output\wdog.o: ..\..\..\..\src\cpu\system_MKE06Z4.h
+.\output\wdog.o: ..\..\..\..\src\common\assert.h
+.\output\wdog.o: ..\..\..\..\src\common\io.h
+.\output\wdog.o: ..\..\..\..\src\common\startup.h
+.\output\wdog.o: ..\..\..\..\src\common\stdlib.h
+.\output\wdog.o: ..\..\..\..\src\drivers\wdog\wdog.h
+.\output\wdog.o: ..\..\..\..\src\drivers\sim\sim.h

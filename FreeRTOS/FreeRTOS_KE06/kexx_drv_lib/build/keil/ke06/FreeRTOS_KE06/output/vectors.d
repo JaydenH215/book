@@ -1,0 +1,17 @@
+.\output\vectors.o: ..\..\..\..\src\cpu\vectors.c
+.\output\vectors.o: ..\..\..\..\src\cpu\vectors.h
+.\output\vectors.o: ..\..\..\..\src\projects\ke06\FreeRTOS_KE06\isr.h
+.\output\vectors.o: ..\..\..\..\src\common\common.h
+.\output\vectors.o: ..\..\..\..\src\cpu\arm_cm0.h
+.\output\vectors.o: ..\..\..\..\src\platforms\ke06_config.h
+.\output\vectors.o: D:\Software\keil\ARM\ARMCC\Bin\..\include\stdint.h
+.\output\vectors.o: ..\..\..\..\src\cpu\headers\MKE06Z4.h
+.\output\vectors.o: ..\..\..\..\src\cpu\headers\core_cm0plus.h
+.\output\vectors.o: ..\..\..\..\src\cpu\headers\core_cmInstr.h
+.\output\vectors.o: ..\..\..\..\src\cpu\headers\cmsis_armcc.h
+.\output\vectors.o: ..\..\..\..\src\cpu\headers\core_cmFunc.h
+.\output\vectors.o: ..\..\..\..\src\cpu\system_MKE06Z4.h
+.\output\vectors.o: ..\..\..\..\src\common\assert.h
+.\output\vectors.o: ..\..\..\..\src\common\io.h
+.\output\vectors.o: ..\..\..\..\src\common\startup.h
+.\output\vectors.o: ..\..\..\..\src\common\stdlib.h
