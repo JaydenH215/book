@@ -1,0 +1,5 @@
+INTSIZEOF 宏，获取类型占用的空间长度，最小占用长度为int的整数倍
+
+#define INTSIZEOF(n) ((sizeof(n) + sizeof(int) - 1) & ~(sizeof(int) - 1))
+
+https://blog.csdn.net/guanjianhe/article/details/82845712
